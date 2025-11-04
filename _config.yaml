@@ -7,6 +7,7 @@ author:
   email: email@techdaria.com
 url: "https://techdaria.com"
 baseurl: ""
+permalink: /:title/
 
 # Build settings
 remote_theme: jekyll/minima@v3
