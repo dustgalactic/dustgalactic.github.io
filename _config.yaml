@@ -9,7 +9,7 @@ url: "https://techdaria.com"
 baseurl: ""
 
 # Build settings
-remote_theme: jekyll/minima@d4d779a
+remote_theme: jekyll/minima@v3
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
