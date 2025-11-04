@@ -30,5 +30,5 @@ minima:
     - title: GitHub
       icon: github
       url: "https://github.com/dustgalactic"
-  hide_site_feed_link: true
+  hide_site_feed_link: false
 paginate: 5
