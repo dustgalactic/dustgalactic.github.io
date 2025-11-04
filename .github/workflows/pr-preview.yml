@@ -18,13 +18,8 @@ jobs:
         with:
           ruby-version: '3.1'
 
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
-
       - name: Build site
-        run: bundle exec jekyll build -d _site
+        run: jekyll build -d _site
 
       - name: Deploy preview to gh-pages-preview
         uses: JamesIves/github-pages-deploy-action@v4
