@@ -1,0 +1,59 @@
+name: PR Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+
+jobs:
+  build-and-preview:
+    if: github.event.action != 'closed'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install GitHub Pages gem
+        run: gem install github-pages --no-document
+
+      - name: Build site with PR baseurl
+        run: |
+          jekyll build -d _site --baseurl /pr-${{ github.event.number }}
+
+      - name: Deploy preview to gh-pages-preview
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages-preview
+          folder: _site
+          target-folder: pr-${{ github.event.number }}
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment PR with preview link
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: preview-link
+          message: |
+            [Preview link](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-${{ github.event.number }}/)
+
+  cleanup-preview:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create empty folder
+        run: mkdir empty
+
+      - name: Deploy empty folder to delete preview
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages-preview
+          folder: empty
+          target-folder: pr-${{ github.event.number }}
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
