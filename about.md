@@ -1,8 +1,10 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+permalink: /about
 ---
+
+## About
 
 Hi, I’m Daria. A technical writer turned team lead.
 
