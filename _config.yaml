@@ -1,10 +1,11 @@
 # Site-wide settings
 title: Technically, Daria
+author:
+  name: Daria Lutchenko ©
 description: >
   A blog about technical writing: how to explain complex topics clearly and create better docs for everyone.
 url: "https://techdaria.com"
 baseurl: ""
-permalink: /:title/
 
 # Build settings
 remote_theme: jekyll/minima
