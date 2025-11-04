@@ -2,15 +2,12 @@
 title: Technically, Daria
 description: >
   A blog about technical writing: how to explain complex topics clearly and create better docs for everyone.
-author:
-  name: Daria Lutchenko
-  email: email@techdaria.com
 url: "https://techdaria.com"
 baseurl: ""
 permalink: /:title/
 
 # Build settings
-remote_theme: jekyll/minima@v3
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
