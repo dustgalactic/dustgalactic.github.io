@@ -3,8 +3,46 @@ layout: post
 title: Draft post
 date: 2025-11-04
 author: [Daria Lutchenko]
-tags: [Technical writing]
+tags: [technical-writing]
 permalink: /draft-post
 ---
 
-Text text text
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt auctor velit, quis pellentesque mauris blandit vel. In vehicula sed massa et lacinia. Curabitur facilisis felis pretium scelerisque suscipit. In hac habitasse platea dictumst. Fusce nec enim condimentum, elementum risus nec, tempor diam. Donec varius varius massa. Suspendisse venenatis consequat magna non finibus. Suspendisse tellus nisl, porta nec semper vel, molestie in turpis. Aliquam pharetra sapien sit amet ipsum fermentum luctus.
+1. Praesent libero justo, sodales in fringilla at, euismod vitae eros. Nunc non velit tortor. Morbi auctor auctor neque, venenatis aliquam massa facilisis id.
+2. Pellentesque dapibus tristique metus ut volutpat. Donec nibh tellus, volutpat ut arcu vel, porttitor pulvinar sem.
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+## More text
+
+Ut non purus risus. [Vestibulum](link) sed consectetur quam. Pellentesque vulputate consectetur odio. Pellentesque ac mollis nisi. Praesent hendrerit maximus tellus. Suspendisse iaculis diam in sagittis tincidunt. Etiam a viverra sem. Proin volutpat nisi et nibh ultricies, eget faucibus lacus auctor. Morbi ex odio, mollis at semper ut, varius finibus magna. Morbi non laoreet ipsum.
+
+> Pellentesque eleifend odio dolor, non finibus magna cursus a. Aliquam egestas dui mauris, eu interdum erat porta ac. Integer dapibus dui at faucibus commodo.
+
+- Aliquam eu lorem in dolor porta accumsan.
+    - proin congue
+    - ante ac mollis lacinia
+- Suspendisse tristique malesuada felis cursus scelerisque. Cras rhoncus enim at lectus condimentum sodales.
+
+## Or else...
+
+- [ ] Milk
+- [x] Cookies
+  - [x] Classic Choco-chip
+  - [x] Sourdough Choco-chip
+- [ ] Chee-ee-eeee-zzze!!!!
+
+## Tables
+
+| Title 1               | Title 2               | Title 3               | Title 4               |
+| --------------------- | --------------------- | --------------------- | --------------------- |
+| lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |

@@ -1,7 +1,7 @@
 # Site-wide settings
 title: Technically, Daria
-author:
-  name: Daria Lutchenko ©
+lang: en
+copyright: "© {{ 'now' | date: '%Y' }} Daria Lutchenko"
 description: >
   A blog about technical writing: how to explain complex topics clearly and create better docs for everyone.
 url: "https://techdaria.com"
@@ -13,6 +13,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-tagging
+
 sass:
   quiet_deps: true
   silence_deprecations: [import]
