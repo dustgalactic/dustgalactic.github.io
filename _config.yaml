@@ -3,7 +3,7 @@ title: Technically, Daria
 description: >
   A blog about technical writing: how to explain complex topics clearly and create better docs for everyone.
 author:
-  name: dustgalactic
+  name: Daria Lutchenko
   email: email@techdaria.com
 url: "https://techdaria.com"
 baseurl: ""
@@ -32,4 +32,5 @@ minima:
     - title: GitHub
       icon: github
       url: "https://github.com/dustgalactic"
-  hide_site_feed_link: false
+  hide_site_feed_link: true
+paginate: 5
