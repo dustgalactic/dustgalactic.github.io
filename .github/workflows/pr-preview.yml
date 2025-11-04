@@ -18,11 +18,12 @@ jobs:
         with:
           ruby-version: '3.1'
 
-      - name: Install GitHub Pages gem (includes Jekyll + plugins)
+      - name: Install GitHub Pages gem
         run: gem install github-pages --no-document
 
-      - name: Build site
-        run: jekyll build -d _site
+      - name: Build site with PR baseurl
+        run: |
+          jekyll build -d _site --baseurl /pr-${{ github.event.number }}
 
       - name: Deploy preview to gh-pages-preview
         uses: JamesIves/github-pages-deploy-action@v4
