@@ -46,10 +46,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Delete preview folder
+      - name: Create empty folder
+        run: mkdir empty
+
+      - name: Deploy empty folder to delete preview
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages-preview
+          folder: empty
+          target-folder: pr-${{ github.event.number }}
           clean: true
-          clean-exclude: |
-            !pr-${{ github.event.number }}
