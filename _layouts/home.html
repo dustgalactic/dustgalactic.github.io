@@ -5,7 +5,9 @@ layout: base
 <div class="home">
 
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
   {%- endif -%}
 
   {{ content }}
@@ -15,7 +17,7 @@ layout: base
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
-
+  
   {%- if posts.size > 0 -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -43,7 +45,7 @@ layout: base
         </li>
       {%- endfor -%}
     </ul>
-
+    
     {% if paginator.total_pages > 1 %}
       <div class="pager">
         <ul class="pagination">
@@ -67,9 +69,6 @@ layout: base
         </ul>
       </div>
     {% endif %}
-
-  {%- else -%}
-    <p>No posts found.</p>
   {%- endif -%}
 
 </div>

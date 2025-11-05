@@ -27,7 +27,7 @@ sass:
 
 # Minima-specific settings
 minima:
-  skin: auto
+  skin: classic
   nav_pages:
     - index.html
     - about.md
