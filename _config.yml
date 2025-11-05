@@ -4,9 +4,10 @@ lang: en
 author:
   name: Daria Lutchenko
 description: >
-  A blog about technical writing: how to explain complex topics clearly and create better docs for everyone.
+  A blog about technical writing: how to make the complex easy and create better docs.
 url: "https://techdaria.com"
 baseurl: ""
+logo: /assets/images/social-preview.png
 
 # Build settings
 remote_theme: jekyll/minima
