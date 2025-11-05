@@ -4,7 +4,7 @@ title: About me
 permalink: /about
 ---
 
-## About
+## Welcome!
 
 Hi, I’m Daria. A technical writer turned team lead.
 
@@ -16,6 +16,6 @@ An English teacher by education, I stumbled upon technical writing by chance. Wi
 
 Hobbyist analog photographer, improviser, and ukulele player. Originally from the Far East of Russia (not from Vladivostok—we're rival cities, I'm from [Khabarovsk](https://en.wikipedia.org/wiki/Khabarovsk)), now living in Berlin.
 
-You can reach out to me via [LinkedIn](https://www.linkedin.com/in/daria-lutchenko/) or by [email](mailto:email@techdaria.com).
+## Contact me
 
-All views shared on this blog are my personal opinions and not those of my employer.
+You can reach out to me via [LinkedIn](https://www.linkedin.com/in/daria-lutchenko/) or by [email](mailto:email@techdaria.com).

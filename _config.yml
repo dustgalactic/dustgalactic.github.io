@@ -1,10 +1,12 @@
 # Site-wide settings
 title: Technically, Daria
+lang: en
+author:
+  name: Daria Lutchenko
 description: >
   A blog about technical writing: how to explain complex topics clearly and create better docs for everyone.
 url: "https://techdaria.com"
 baseurl: ""
-permalink: /:title/
 
 # Build settings
 remote_theme: jekyll/minima
@@ -12,6 +14,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-tagging
+
 sass:
   quiet_deps: true
   silence_deprecations: [import]
@@ -20,7 +24,7 @@ sass:
 minima:
   skin: auto
   nav_pages:
-    - index.md
+    - index.html
     - about.md
   show_excerpts: true
   date_format: "%b %d, %Y"
@@ -32,3 +36,7 @@ minima:
       icon: github
       url: "https://github.com/dustgalactic"
   hide_site_feed_link: false
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
