@@ -16,6 +16,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-tagging
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
 
 sass:
   quiet_deps: true
@@ -38,6 +42,3 @@ minima:
       url: "https://github.com/dustgalactic"
   hide_site_feed_link: false
 
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
