@@ -4,9 +4,10 @@ lang: en
 author:
   name: Daria Lutchenko
 description: >
-  A blog about technical writing: how to explain complex topics clearly and create better docs for everyone.
+  A blog about technical writing: how to make the complex easy and create better docs.
 url: "https://techdaria.com"
 baseurl: ""
+logo: /assets/images/social-preview.png
 
 # Build settings
 remote_theme: jekyll/minima
@@ -15,6 +16,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-tagging
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
 
 sass:
   quiet_deps: true
@@ -37,6 +42,3 @@ minima:
       url: "https://github.com/dustgalactic"
   hide_site_feed_link: false
 
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
