@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Draft post
-date: 2025-11-04
+date: 2025-11-01
 author: [Daria Lutchenko]
 tags: [technical-writing]
 permalink: /draft-post
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt auctor velit, quis pellentesque mauris blandit vel. In vehicula sed massa et lacinia. Curabitur facilisis felis pretium scelerisque suscipit. In hac habitasse platea dictumst. Fusce nec enim condimentum, elementum risus nec, tempor diam. Donec varius varius massa. Suspendisse venenatis consequat magna non finibus. Suspendisse tellus nisl, porta nec semper vel, molestie in turpis. Aliquam pharetra sapien sit amet ipsum fermentum luctus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt auctor velit, quis pellentesque mauris blandit vel. In vehicula sed massa et lacinia. Curabitur facilisis felis pretium scelerisque suscipit. In hac habitasse platea dictumst. Fusce nec enim condimentum, elementum risus nec, tempor diam.
+
+Donec varius varius massa. Suspendisse venenatis consequat magna non finibus. Suspendisse tellus nisl, porta nec semper vel, molestie in turpis. Aliquam pharetra sapien sit amet ipsum fermentum luctus.
 1. Praesent libero justo, sodales in fringilla at, euismod vitae eros. Nunc non velit tortor. Morbi auctor auctor neque, venenatis aliquam massa facilisis id.
 2. Pellentesque dapibus tristique metus ut volutpat. Donec nibh tellus, volutpat ut arcu vel, porttitor pulvinar sem.
 

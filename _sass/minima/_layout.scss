@@ -118,8 +118,6 @@
   }
 }
 
-
-
 /**
  * Site footer
  */
@@ -197,8 +195,6 @@
   }
 }
 
-
-
 /**
  * Page content
  */
@@ -221,6 +217,21 @@
 
   > li {
     margin-bottom: $spacing-unit;
+
+    h3.post-link {
+      margin-bottom: 0; // removed extra space below title
+    }
+
+    .post-tags {
+      display: block;
+      margin: 0.5em 0; // controls space above and below tags
+      font-size: 0.875em;
+      color: $brand-color-dimmed;
+    }
+
+    .post-excerpt {
+      margin-top: 0; // tight to tags
+    }
   }
 }
 
@@ -233,8 +244,6 @@
   display: block;
   @include relative-font-size(1.5);
 }
-
-
 
 /**
  * Posts
@@ -262,7 +271,7 @@
 
 .post-title,
 .post-content h1 {
-  margin-bottom: 10px;
+  margin-bottom: 0.5em; // slightly smaller space
   @include relative-font-size(2.625);
   font-weight: $base-font-weight;
   letter-spacing: -1px;
@@ -330,8 +339,6 @@
   }
 }
 
-
-
 /**
  * Pagination navbar
  */
@@ -370,12 +377,9 @@
   }
 }
 
-
-
 /**
  * Task-lists
  */
-
 .task-list {
   margin-left: 0;
   padding-left: $spacing-unit * 0.6;
@@ -405,8 +409,6 @@
     &:checked::after { border-color: $border-color-03 }
   }
 }
-
-
 
 /**
  * Grid helpers

@@ -1,7 +1,8 @@
 # Site-wide settings
 title: Technically, Daria
 lang: en
-copyright: "© {{ 'now' | date: '%Y' }} Daria Lutchenko"
+author:
+  name: Daria Lutchenko
 description: >
   A blog about technical writing: how to explain complex topics clearly and create better docs for everyone.
 url: "https://techdaria.com"

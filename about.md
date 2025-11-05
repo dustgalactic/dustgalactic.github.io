@@ -19,7 +19,3 @@ Hobbyist analog photographer, improviser, and ukulele player. Originally from th
 ## Contact me
 
 You can reach out to me via [LinkedIn](https://www.linkedin.com/in/daria-lutchenko/) or by [email](mailto:email@techdaria.com).
-
----
-
-_All views shared on this blog are my personal opinions and not those of my employer._
