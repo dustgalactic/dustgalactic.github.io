@@ -23,7 +23,7 @@
 }
 
 .post-list .post-item:not(:last-child) {
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid #d4d0cc;
 }
 
 .post-list .post-title {
@@ -33,25 +33,20 @@
 }
 
 .grey {
-  // Used for social icons - improved contrast for accessibility
-  // #3a3a3a on #faf9f7 = ~7.2:1 contrast ratio (WCAG AA compliant)
-  color: #3a3a3a;
+  color: #4a4a4a;
 }
 
 .post-meta {
   font-size: 0.85rem;
-  // Improved contrast: #4c4c4c on #faf9f7 = ~7.2:1 (WCAG AA compliant)
-  // Using slightly darker for better readability
-  color: #3a3a3a;
+  color: #4a4a4a;
 }
 
 .post-title a {
   text-decoration: none;
-  color: #2c3e50;
+  color: #2d4a5c;
   
-  // Ensure focus is visible for keyboard navigation
   &:focus {
-    outline: 2px solid #006699;
+    outline: 2px solid #0d7377;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -61,7 +56,7 @@
   }
   
   &:focus-visible {
-    outline: 2px solid #006699;
+    outline: 2px solid #0d7377;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -73,51 +68,36 @@
 
 .post-excerpt {
   margin: 0.5rem 0;
-  color: #333333;
+  color: #2a2a2a;
 }
 
 .post-excerpt p {
-  color: #333333;
+  color: #2a2a2a;
 }
 
-// Code block accessibility improvements
 pre, code {
-  // Ensure sufficient contrast (WCAG AA: 4.5:1 minimum)
-  // Background: #f5f5f5, Text: #1a1a1a = ~12.6:1 contrast ratio ✓
-  
-  // Improve readability with better spacing
   word-wrap: break-word;
   word-break: break-word;
   overflow-wrap: break-word;
 }
 
-// Enhanced code block styling for better accessibility
 pre {
-  // Ensure code blocks are easily distinguishable
-  border-left: 3px solid #006699;
-  
-  // Improve scrolling on mobile
+  border-left: 3px solid #0d7377;
   -webkit-overflow-scrolling: touch;
   
-  // Better focus visibility for keyboard navigation
   &:focus {
-    outline: 2px solid #006699;
+    outline: 2px solid #0d7377;
     outline-offset: 2px;
   }
 }
 
-// Inline code should be clearly distinguishable
 code.highlighter-rouge {
-  // Ensure inline code has sufficient contrast
-  font-weight: 500; // Slightly bolder for better readability
+  font-weight: 500;
 }
 
-// Footer text centering
 .footer-text p {
   text-align: center;
 }
-
-// Accessibility: Ensure all interactive elements have visible focus states
 button, 
 input, 
 select, 
@@ -125,7 +105,7 @@ textarea,
 .nav-item,
 .site-title {
   &:focus {
-    outline: 2px solid #006699;
+    outline: 2px solid #0d7377;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -135,7 +115,7 @@ textarea,
   }
   
   &:focus-visible {
-    outline: 2px solid #006699;
+    outline: 2px solid #0d7377;
     outline-offset: 2px;
     border-radius: 2px;
   }
