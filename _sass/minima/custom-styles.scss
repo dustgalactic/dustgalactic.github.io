@@ -1,6 +1,45 @@
 .post-header {
   border-bottom: none !important;
   margin-bottom: 0;
+  position: relative;
+}
+
+.post-header-top {
+  margin-bottom: 1rem;
+}
+
+.back-to-posts {
+  display: inline-block;
+  color: $grey-color !important;
+  text-decoration: none !important;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid $grey-color;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  background-color: transparent;
+  
+  &:hover {
+    color: $background-color !important;
+    background-color: $grey-color;
+    text-decoration: none !important;
+  }
+  
+  &:focus {
+    outline: 2px solid $grey-color;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+  
+  &:focus-visible {
+    outline: 2px solid $grey-color;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
 }
 
 .post-header .post-title, 
@@ -33,12 +72,12 @@
 }
 
 .grey {
-  color: #4a4a4a;
+  color: $grey-color;
 }
 
 .post-meta {
   font-size: 0.85rem;
-  color: #4a4a4a;
+  color: $grey-color;
 }
 
 .post-title a {
@@ -68,11 +107,11 @@
 
 .post-excerpt {
   margin: 0.5rem 0;
-  color: #2a2a2a;
+  color: $grey-color-light;
 }
 
 .post-excerpt p {
-  color: #2a2a2a;
+  color: $grey-color-light;
 }
 
 pre, code {
@@ -95,8 +134,152 @@ code.highlighter-rouge {
   font-weight: 500;
 }
 
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: $background-color;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+  
+  th {
+    background-color: $code-background-color;
+    color: $text-color;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    border-bottom: 2px solid $grey-color;
+    padding: 1rem 1.25rem;
+    text-align: left;
+    vertical-align: middle;
+    
+    &:first-child {
+      padding-left: 1.5rem;
+    }
+    
+    &:last-child {
+      padding-right: 1.5rem;
+    }
+  }
+  
+  td {
+    border: none;
+    border-bottom: 1px solid #d4d0cc;
+    padding: 1rem 1.25rem;
+    color: $text-color;
+    vertical-align: top;
+    line-height: 1.6;
+    
+    &:first-child {
+      padding-left: 1.5rem;
+    }
+    
+    &:last-child {
+      padding-right: 1.5rem;
+    }
+  }
+  
+  tbody {
+    tr {
+      transition: background-color 0.15s ease;
+      
+      &:last-child {
+        td {
+          border-bottom: none;
+        }
+      }
+    }
+    
+    tr:nth-child(even) {
+      background-color: $code-background-color;
+    }
+  }
+  
+  thead {
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    th, td {
+      padding: 0.75rem 1rem;
+      font-size: 0.875rem;
+      
+      &:first-child {
+        padding-left: 1rem;
+      }
+      
+      &:last-child {
+        padding-right: 1rem;
+      }
+    }
+  }
+}
+
 .footer-text p {
   text-align: center;
+}
+
+.social-media-list {
+  li {
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: $grey-color !important;
+      text-decoration: none !important;
+      font-size: 0.9rem;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid $grey-color;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      background-color: transparent;
+      min-width: 40px;
+      min-height: 40px;
+      
+      .grey {
+        color: $grey-color;
+      }
+      
+      &:hover {
+        color: $background-color !important;
+        background-color: $grey-color;
+        border-color: $grey-color;
+        text-decoration: none !important;
+        
+        .grey {
+          color: $background-color;
+        }
+      }
+      
+      &:focus {
+        outline: 2px solid $grey-color;
+        outline-offset: 2px;
+        border-radius: 4px;
+      }
+      
+      &:focus:not(:focus-visible) {
+        outline: none;
+      }
+      
+      &:focus-visible {
+        outline: 2px solid $grey-color;
+        outline-offset: 2px;
+        border-radius: 4px;
+      }
+    }
+  }
 }
 button, 
 input, 
