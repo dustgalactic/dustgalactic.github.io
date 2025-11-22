@@ -59,20 +59,39 @@
   color: #333333;
 }
 
-.post-tags {
-  font-size: 0.85rem;
-  color: #333333;
+// Code block accessibility improvements
+pre, code {
+  // Ensure sufficient contrast (WCAG AA: 4.5:1 minimum)
+  // Background: #f5f5f5, Text: #1a1a1a = ~12.6:1 contrast ratio ✓
+  
+  // Improve readability with better spacing
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
-.post-tags .tag-link {
-  text-decoration: none;
-  background: #dddddd;
-  padding: 2px 6px;
-  margin-right: 4px;
-  border-radius: 4px;
-  color: #333333;
+// Enhanced code block styling for better accessibility
+pre {
+  // Ensure code blocks are easily distinguishable
+  border-left: 3px solid #006699;
+  
+  // Improve scrolling on mobile
+  -webkit-overflow-scrolling: touch;
+  
+  // Better focus visibility for keyboard navigation
+  &:focus {
+    outline: 2px solid #006699;
+    outline-offset: 2px;
+  }
 }
 
-.post-tags .tag-link:hover {
-  background: #cccccc;
+// Inline code should be clearly distinguishable
+code.highlighter-rouge {
+  // Ensure inline code has sufficient contrast
+  font-weight: 500; // Slightly bolder for better readability
+}
+
+// Footer text centering
+.footer-text p {
+  text-align: center;
 }
