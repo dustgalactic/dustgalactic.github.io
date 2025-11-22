@@ -126,6 +126,23 @@ a {
     text-underline-offset: 3px;
   }
 
+  // Critical for keyboard navigation accessibility
+  &:focus {
+    outline: 2px solid $link-base-color;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-base-color;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
   .social-media-list &:hover {
     text-decoration: none;
 
