@@ -15,7 +15,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
-  - jekyll-tagging
   - jekyll-paginate
 
 paginate: 5

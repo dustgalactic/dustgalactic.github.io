@@ -126,6 +126,22 @@ a {
     text-underline-offset: 3px;
   }
 
+  &:focus {
+    outline: 2px solid $link-base-color;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-base-color;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
   .social-media-list &:hover {
     text-decoration: none;
 
@@ -171,23 +187,33 @@ code {
 }
 
 pre {
-  padding: 8px 12px;
-  font-size: 15px;
-  line-height: 1.4;
+  padding: 1rem 1.25rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
   color: $heading-color;
   overflow-x: auto;
+  border-radius: 4px;
+  background-color: $code-background-color;
 
   > code {
     display: inline-block;
     width: 100%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    font-size: inherit;
   }
 }
 
 div.highlight, figure.highlight {
   @extend %vertical-rhythm;
   border: 1px solid $border-color-01;
-  border-radius: 3px;
-  pre { margin: 0 }
+  border-radius: 4px;
+  background-color: $code-background-color;
+  pre { 
+    margin: 0;
+    border-radius: 4px;
+  }
   table, tbody, th, tr, td {
     margin: 0;
     padding: 0;
@@ -203,10 +229,12 @@ figure.highlight {
 }
 
 code.highlighter-rouge {
-  padding: 1px 5px;
-  font-size: 14px;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.875rem;
   border: 1px solid $border-color-01;
   border-radius: 3px;
+  background-color: $code-background-color;
+  color: $code-base-color;
 }
 
 

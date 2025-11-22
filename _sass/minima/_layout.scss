@@ -222,15 +222,8 @@
       margin-bottom: 0; // removed extra space below title
     }
 
-    .post-tags {
-      display: block;
-      margin: 0.5em 0; // controls space above and below tags
-      font-size: 0.875em;
-      color: $brand-color-dimmed;
-    }
-
     .post-excerpt {
-      margin-top: 0; // tight to tags
+      margin-top: 0.5em;
     }
   }
 }

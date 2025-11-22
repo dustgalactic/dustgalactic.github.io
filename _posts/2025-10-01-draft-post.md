@@ -3,7 +3,6 @@ layout: post
 title: Draft post
 date: 2025-10-01
 author: [Daria Lutchenko]
-tags: [technical-writing]
 permalink: /draft-post
 image: /assets/images/posts/draft-post-image.jpg
 ---
