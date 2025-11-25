@@ -2,23 +2,25 @@
 layout: base
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="home">
+  <header class="post-header">
+    <h1 class="post-title">Unfortunately, 404</h1>
+    <p class="page-description">You've stumbled upon a page that doesn't exist... Good news: the latest posts do.</p>
+  </header>
+  
+  {%- assign posts = site.posts | slice: 0, 3 -%}
+  
+  {%- if posts.size > 0 -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+        <li class="post-item">
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3 class="post-title">
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h3>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
 </div>
