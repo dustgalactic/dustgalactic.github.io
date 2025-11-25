@@ -33,15 +33,6 @@ Ut non purus risus. [Vestibulum](link) sed consectetur quam. Pellentesque vulput
     - proin congue
     - ante ac mollis lacinia
 - Suspendisse tristique malesuada felis cursus scelerisque. Cras rhoncus enim at lectus condimentum sodales.
-
-## Or else...
-
-- [ ] Milk
-- [x] Cookies
-  - [x] Classic Choco-chip
-  - [x] Sourdough Choco-chip
-- [ ] Chee-ee-eeee-zzze!!!!
-
 ## Tables
 
 | Title 1               | Title 2               | Title 3               | Title 4               |
