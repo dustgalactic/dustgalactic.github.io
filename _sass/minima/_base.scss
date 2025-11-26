@@ -113,18 +113,18 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $link-color;
+  color: $accent-color;
   text-decoration: none;
 
   &:hover {
-    color: $link-color;
+    color: $accent-color;
     text-decoration: underline;
     text-decoration-color: currentColor;
     text-underline-offset: 3px;
   }
 
   &:focus {
-    outline: 2px solid $link-color;
+    outline: 2px solid $accent-color;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -134,7 +134,7 @@ a {
   }
 
   &:focus-visible {
-    outline: 2px solid $link-color;
+    outline: 2px solid $accent-color;
     outline-offset: 2px;
     border-radius: 2px;
   }
