@@ -113,18 +113,18 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $link-base-color;
+  color: $link-color;
   text-decoration: none;
 
   &:hover {
-    color: $link-base-color;
+    color: $link-color;
     text-decoration: underline;
     text-decoration-color: currentColor;
     text-underline-offset: 3px;
   }
 
   &:focus {
-    outline: 2px solid $link-base-color;
+    outline: 2px solid $link-color;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -134,7 +134,7 @@ a {
   }
 
   &:focus-visible {
-    outline: 2px solid $link-base-color;
+    outline: 2px solid $link-color;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -231,7 +231,7 @@ code.highlighter-rouge {
   border: 1px solid $border-color-01;
   border-radius: 3px;
   background-color: $code-background-color;
-  color: $code-base-color;
+  color: $code-text-color;
 }
 
 

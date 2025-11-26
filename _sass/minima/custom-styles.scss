@@ -10,23 +10,23 @@
 
 .back-to-posts {
   display: inline-block;
-  color: $grey-color !important;
+  color: $muted-text !important;
   text-decoration: none !important;
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
-  border: 1px solid $grey-color;
+  border: 1px solid $muted-text;
   border-radius: 4px;
   transition: all 0.2s ease;
   background-color: transparent;
   
   &:hover {
     color: $background-color !important;
-    background-color: $grey-color;
+    background-color: $muted-text;
     text-decoration: none !important;
   }
   
   &:focus {
-    outline: 2px solid $grey-color;
+    outline: 2px solid $muted-text;
     outline-offset: 2px;
     border-radius: 4px;
   }
@@ -36,7 +36,7 @@
   }
   
   &:focus-visible {
-    outline: 2px solid $grey-color;
+    outline: 2px solid $muted-text;
     outline-offset: 2px;
     border-radius: 4px;
   }
@@ -72,20 +72,20 @@
 }
 
 .grey {
-  color: $grey-color;
+  color: $muted-text;
 }
 
 .post-meta {
   font-size: 0.85rem;
-  color: $grey-color;
+  color: $muted-text;
 }
 
 .post-title a {
   text-decoration: none;
-  color: #2d4a5c;
+  color: $text-color;
   
   &:focus {
-    outline: 2px solid #0d7377;
+    outline: 2px solid $muted-text;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -95,7 +95,7 @@
   }
   
   &:focus-visible {
-    outline: 2px solid #0d7377;
+    outline: 2px solid $muted-text;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -107,11 +107,11 @@
 
 .post-excerpt {
   margin: 0.5rem 0;
-  color: $grey-color-light;
+  color: $secondary-text;
 }
 
 .post-excerpt p {
-  color: $grey-color-light;
+  color: $secondary-text;
 }
 
 pre, code {
@@ -121,11 +121,11 @@ pre, code {
 }
 
 pre {
-  border-left: 3px solid #0d7377;
+  border-left: 3px solid $muted-text;
   -webkit-overflow-scrolling: touch;
   
   &:focus {
-    outline: 2px solid #0d7377;
+    outline: 2px solid $muted-text;
     outline-offset: 2px;
   }
 }
@@ -152,7 +152,7 @@ table {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     border: none;
-    border-bottom: 2px solid $grey-color;
+    border-bottom: 2px solid $muted-text;
     padding: 1rem 1.25rem;
     text-align: left;
     vertical-align: middle;
@@ -237,11 +237,11 @@ table {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      color: $grey-color !important;
+      color: $muted-text !important;
       text-decoration: none !important;
       font-size: 0.9rem;
       padding: 0.5rem 0.75rem;
-      border: 1px solid $grey-color;
+      border: 1px solid $muted-text;
       border-radius: 4px;
       transition: all 0.2s ease;
       background-color: transparent;
@@ -249,13 +249,13 @@ table {
       min-height: 40px;
       
       .grey {
-        color: $grey-color;
+        color: $muted-text;
       }
       
       &:hover {
         color: $background-color !important;
-        background-color: $grey-color;
-        border-color: $grey-color;
+        background-color: $muted-text;
+        border-color: $muted-text;
         text-decoration: none !important;
         
         .grey {
@@ -264,7 +264,7 @@ table {
       }
       
       &:focus {
-        outline: 2px solid $grey-color;
+        outline: 2px solid $muted-text;
         outline-offset: 2px;
         border-radius: 4px;
       }
@@ -274,7 +274,7 @@ table {
       }
       
       &:focus-visible {
-        outline: 2px solid $grey-color;
+        outline: 2px solid $muted-text;
         outline-offset: 2px;
         border-radius: 4px;
       }
