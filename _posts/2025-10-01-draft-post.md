@@ -4,12 +4,9 @@ title: Draft post
 date: 2025-10-01
 author: [Daria Lutchenko]
 permalink: /draft-post
-image: /assets/images/posts/draft-post-image.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt auctor velit, quis pellentesque mauris blandit vel. In vehicula sed massa et lacinia. Curabitur facilisis felis pretium scelerisque suscipit. In hac habitasse platea dictumst. Fusce nec enim condimentum, elementum risus nec, tempor diam.
-
-<img src="/assets/images/draft-post-image.jpg" alt="Profile picture" width="800">
 
 Donec varius varius massa. Suspendisse venenatis consequat magna non finibus. Suspendisse tellus nisl, porta nec semper vel, molestie in turpis. Aliquam pharetra sapien sit amet ipsum fermentum luctus.
 1. Praesent libero justo, sodales in fringilla at, euismod vitae eros. Nunc non velit tortor. Morbi auctor auctor neque, venenatis aliquam massa facilisis id.
