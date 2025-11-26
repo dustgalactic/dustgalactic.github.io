@@ -121,7 +121,7 @@ pre, code {
 }
 
 pre {
-  border-left: 3px solid $accent-color;
+  border-left: 4px solid $accent-color;
   -webkit-overflow-scrolling: touch;
   
   &:focus {
@@ -145,14 +145,14 @@ table {
   margin-bottom: 1.5rem;
   
   th {
-    background-color: $code-background-color;
+    background-color: $block-background-color;
     color: $text-color;
     font-weight: 600;
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     border: none;
-    border-bottom: 2px solid $muted-text;
+    border-bottom: 2px solid $accent-color;
     padding: 1rem 1.25rem;
     text-align: left;
     vertical-align: middle;
@@ -195,7 +195,7 @@ table {
     }
     
     tr:nth-child(even) {
-      background-color: $code-background-color;
+      background-color: $block-background-color;
     }
   }
   
