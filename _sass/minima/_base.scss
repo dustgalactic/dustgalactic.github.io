@@ -116,13 +116,10 @@ a {
   color: $link-base-color;
   text-decoration: none;
 
-  &:visited {
-    color: $link-visited-color;
-  }
-
   &:hover {
-    color: $link-hover-color;
-    text-decoration: underline $brand-color;
+    color: $link-base-color;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
     text-underline-offset: 3px;
   }
 
