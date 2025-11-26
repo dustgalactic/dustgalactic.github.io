@@ -6,8 +6,7 @@
   width: 100%;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-  background-color: $background-color;
-  border-top: 5px solid $border-color-03;
+  background-color: darken($background-color, 8%);
   border-bottom: 1px solid $border-color-01;
 }
 
@@ -17,14 +16,17 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  text-decoration: none !important;
+  color: $text-color !important;
 
   @include media-query($on-palm) {
     padding-right: 45px;
   }
 
-  &,
-  &:visited {
-    color: $site-title-color;
+  // Prevent any hover/focus/active effects
+  &:hover, &:focus, &:active, &:visited {
+    text-decoration: none !important;
+    color: $text-color !important;
   }
 }
 

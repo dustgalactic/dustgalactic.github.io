@@ -103,7 +103,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  color: $heading-color;
+  color: $text-color;
   font-weight: 500;
 }
 
@@ -113,21 +113,18 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $link-base-color;
+  color: $accent-color;
   text-decoration: none;
 
-  &:visited {
-    color: $link-visited-color;
-  }
-
   &:hover {
-    color: $link-hover-color;
-    text-decoration: underline $brand-color;
+    color: $accent-color;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
     text-underline-offset: 3px;
   }
 
   &:focus {
-    outline: 2px solid $link-base-color;
+    outline: 2px solid $accent-color;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -137,7 +134,7 @@ a {
   }
 
   &:focus-visible {
-    outline: 2px solid $link-base-color;
+    outline: 2px solid $accent-color;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -156,10 +153,13 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $brand-color;
-  border-left: 4px solid $border-color-01;
-  padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.05);
+  border-left: 4px solid $accent-color;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  background-color: $block-background;
+  border-radius: 4px;
+  -webkit-overflow-scrolling: touch;
+  color: $text-color;
   font-style: italic;
 
   > :last-child {
@@ -168,6 +168,11 @@ blockquote {
 
   i, em {
     font-style: normal;
+  }
+
+  &:focus {
+    outline: 2px solid $text-muted;
+    outline-offset: 2px;
   }
 }
 
@@ -179,7 +184,7 @@ blockquote {
 pre,
 code {
   font-family: $code-font-family;
-  background-color: $code-background-color;
+  background-color: $block-background;
 
   @include media-query($on-palm) {
     font-family: monospace;
@@ -193,7 +198,7 @@ pre {
   color: $heading-color;
   overflow-x: auto;
   border-radius: 4px;
-  background-color: $code-background-color;
+  background-color: $block-background;
 
   > code {
     display: inline-block;
@@ -209,7 +214,7 @@ div.highlight, figure.highlight {
   @extend %vertical-rhythm;
   border: 1px solid $border-color-01;
   border-radius: 4px;
-  background-color: $code-background-color;
+  background-color: $block-background;
   pre { 
     margin: 0;
     border-radius: 4px;
@@ -233,8 +238,8 @@ code.highlighter-rouge {
   font-size: 0.875rem;
   border: 1px solid $border-color-01;
   border-radius: 3px;
-  background-color: $code-background-color;
-  color: $code-base-color;
+  background-color: $block-background;
+  color: $text-color;
 }
 
 
