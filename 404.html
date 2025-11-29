@@ -2,19 +2,21 @@
 layout: base
 ---
 
-<div class="home">
-  <header class="post-header">
-    <h1 class="post-title">Unfortunately, 404</h1>
-    <p class="page-description">You've stumbled upon a page that doesn't exist... Good news: the latest posts do.</p>
-  </header>
-  
-  {%- assign posts = site.posts | slice: 0, 5 -%}
-  
-  {%- if posts.size > 0 -%}
-    <ul>
-      {%- for post in posts -%}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
-</div>
+<header class="post-header">
+  <h1 class="post-title">Unfortunately, 404</h1>
+  <p class="page-description">You've stumbled upon a page that doesn't exist... Good news: the latest posts do.</p>
+</header>
+
+{%- assign posts = site.posts | slice: 0, 5 -%}
+
+{%- if posts.size > 0 -%}
+  <ul class="post-list">
+    {%- for post in posts -%}
+      <li>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
