@@ -70,6 +70,6 @@ Things that you could do:
 - **Marketing posts.** You could explain a complicated concept introduced by a new product feature, or share insights about your docs and processes.
 - **Workshops.** You could organize training sessions to teach teams how to write and structure their internal docs. Alternatively, you could share with them guidelines on public communication.
 - **Style guides.** Related to the previous point, you could share style guides. If no tone of voice or style guide exist yet, it’s even more important. Set it up, announce it, and share it.
-- **Presentations.** If your company hosts regular internal presentations, you could submit a proposal for a short talk to share rechnical writing principles and how you work. Bonus: if other teams aren't following the "how-to-request-docs" processes you set up, this will serve as a gentle reminder of the correct way to do it.
+- **Presentations.** If your company hosts regular internal presentations, you could submit a proposal for a short talk to share technical writing principles and how you work. Bonus: if other teams aren't following the "how-to-request-docs" processes you set up, this will serve as a gentle reminder of the correct way to do it.
 
 And, answering the question in the title: yes, you are good enough. Time to beat the imposter syndrome.
