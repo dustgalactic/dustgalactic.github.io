@@ -52,16 +52,15 @@ In technical writing, imposter syndrome becomes a self-fulfilling prophecy. We t
 
 ## Organizational mindset shift
 
-At the [DevPortal Awards 2025 gala](https://youtu.be/W2wbEE7fddY?t=4205), I was asked a question by [Laura Vass](https://www.linkedin.com/in/lauravass):
+At the DevPortal Awards 2025 [gala](https://youtu.be/W2wbEE7fddY?t=4205), [Laura Vass](https://www.linkedin.com/in/lauravass) asked me a question:
 
 > Do you remember an "aha!" or faith-changing moment when the appreciation of the documentation itself suddenly changed, or was this always the case?
 
-When Laura had asked that, I let out a laugh. Although, I don't remember a specific moment, but I remember when I realized that the mindset shift had happened. Looking back at my experience I do believe that a writer can influence how the organization as a whole treats documentation work.
+When Laura asked that, I let out a laugh. Although, I don't remember a specific moment, but I remember when I realized the mindset shift in my company had happened. Looking back on my experience, I do believe that a writer can influence how the organization as a whole treats documentation work.
 
-The first step is your own mindset shift. You need to treat visibility and proactive internal communication of your or your team's work as a non-negotiable KPI. I remember how I was twisting and turning at the prospect of having to do anything visibility-related. _Just give me a laptop and let me write in peace!_ But this is something you need to push through. Engineers can afford the "laptop + coding in peace" because they don't have to prove their value. Technical writers can't.
+The first step is your own mindset shift. You need to treat visibility and proactive internal communication of your or your team's work as a non-negotiable KPI. I remember how I was twisting and turning at the prospect of having to do anything visibility-related. _Just give me a laptop and let me write in peace!_ But this is something you need to push through. Engineers can afford the "laptop + coding in peace" approach because they don't have to prove their value to the organization. Technical writers can't.
 
-Have it on your quarterply plans and Jira boards. Block time slots on your calendar. Don't let the thoughts like _"it's just me tooting my own horn"_, _"that would be so vain of me"_ stop you. It's a KPI, so it's your job. Nothing more, nothing less. A work project that is helping you communicate the value of what you do to your company
-
+Include it in your quarterly plans and put it on your Jira boards. Block time slots on your calendar. Don't let the thoughts like _"it's just me tooting my own horn"_ or _"that would be so vain of me"_ stop you. It's a KPI, so it's your job. Nothing more, nothing less. Treat for what it is: a work project that helps you communicate the value of what you do.
 Things that you could do:
 
 - **Changelog.** You could establish an internal changelog for any content changes, where you'd publish a weekly or bi-weekly summary of updates. Bonus: it could also serve as a tool for communicating releases, especially in teams with product silos.
