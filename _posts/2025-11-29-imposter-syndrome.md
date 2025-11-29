@@ -7,11 +7,13 @@ author: [Daria Lutchenko]
 permalink: /imposter-syndrome
 ---
 
-A couple of sentences of intro
+With this phrase stuck in my mind, I kept thinking about how natural it is for technical writers to feel inadequate. From underinvestment to the difficulty of measuring our impact, we might get stuck in a loop of feeling unappreciated. In this article, I want to talk about the necessary mindset shift we need to make on a personal level to help our companies recongize our value.
+
+---
 
 ## The plague swiping across technical writing
 
-The title for this post comes from a [great talk](https://youtu.be/WOB6ZHA8zMo?si=MFKrBpVrZYVhn7Tq&t=315) given by [Kat Stoica Ostenfeld](https://www.linkedin.com/in/katstoicaostenfeld) at Write the Docs 2025 Berlin conference. In Kat's talk, this was about the difficulty of the mental adjustment of transitioning from an individual contributor to a team lead, but it struck me as such a relatable phrase. The thought process being:
+The title for this post comes from a [great talk](https://youtu.be/WOB6ZHA8zMo?si=MFKrBpVrZYVhn7Tq&t=315) by [Kat Stoica Ostenfeld](https://www.linkedin.com/in/katstoicaostenfeld) at the Write the Docs 2025 Berlin conference. In Kat's talk, she used this phrase to discuss the mental challenge of transitioning from an individual contributor to a team lead. The phrase struck me as super relatable even outside of team lead work. The thought process being:
 
 {% highlight txt %}
 Do I have imposter syndrome?
@@ -24,7 +26,7 @@ I'm just (select what's applicable):
 - always overpreparing
 {% endhighlight %}
 
-As a profession, technical writing has a natural inclination towards imposter syndrome. It's hard to measure your impact. Sales folks have quantitaive KPIs, product folks can track engagement and revenue coming through their product, marketing folks have views and clicks. Technical writers? Nah. There's this long-standing discussion: how do you interpret the amount of time people spend on a given page?
+As a profession, technical writing has a natural inclination towards imposter syndrome. It's hard to measure your impact. Sales folks have quantitative KPIs, product folks track engagement and revenue coming through their product, marketing folks monitor views and clicks. Technical writers? Nah. There's this long-standing discussion: how do you interpret the amount of time people spend on a given page?
 - If people spend **too little time** on a page, it's bad because it means:
   - They couldn't find anything useful to them.
   - The title or navigation is confusing and this page doesn't cover the topic they were looking for.
@@ -33,22 +35,22 @@ As a profession, technical writing has a natural inclination towards imposter sy
 
 How much is too much? How little is too little? You can never win.
 
-With the difficulty of measuring your impact, there comes a natural consequence: companies histprically underinvest in technical writing. I had conversations with people praising our docs and lamenting how bad their documentation was. How many tech writers did they have? Zero. It's one of those _"you don't know what you don't know"_ things that some companies don't even know what they're missing on.
+With the difficulty of measuring your impact, there comes a natural consequence: companies historically underinvest in technical writing. I've had conversations with people from other companies praising our docs and lamenting how bad their documentation was. How many tech writers did they have? Zero. It's one of those "you don't know what you don't know" things — some companies don't even know what they're missing on.
 
 ## Gender impact
 
-Imposter syndrome [was found to be more common in women than in men](https://doi.org/10.1016/j.crbeha.2024.100155). And technical writing is a predominantly female profession. In [2024 salary survey done by Write the Docs](https://www.writethedocs.org/surveys/salary-survey/2024/#gender-identity), more than half of the respondents were women:
+Imposter syndrome [is common in women than in men](https://doi.org/10.1016/j.crbeha.2024.100155). And technical writing is a predominantly female profession. In the [2024 salary survey](https://www.writethedocs.org/surveys/salary-survey/2024/#gender-identity) conducted by Write the Docs, more than half of the respondents were women:
 
 > As in previous surveys, the majority of respondents in 2024 were women - 57% - with men making up 37.2%. 3.9% of respondents were non-binary, transgender or other, and 1.7% chose to not provide an answer.
 
-I'd assume that women are also more likely to participate in a community survey like this. But even though this doesn’t precisely reflect the actual ratio of women to men in the profession, that's more or less matches how I’ve seen it in practice.
+I'd assume that women are also more likely to participate in a community survey like this. But even though this doesn’t precisely reflect the actual ratio of women to men in the profession, it more or less matches what I’ve seen in practice.
 
 One of the things I catch myself doing is diminishing my job title:
 
 * Q: _"What do you do?"_
 * A: _"I'm a technical writer."_ (I do like the sound of "technical writer", but that's not accurate. I've been a lead for a couple of years already at this point.)
 
-In technical writing, imposter syndrome becomes a self-fulfilling prophecy. We think we got lucky for whatever reason and not think of ourselves as being capable which represents in us not speaking up about our achievements (why would I bother people), not trying to track metrics (who in my company cares) and not being open to opportunities (who on Earth would want to listen to my conference talk). And in women, it's even more rooted.
+In technical writing, imposter syndrome often becomes a self-fulfilling prophecy. We think we got lucky for some reason and fail to think of ourselves as capable. This shows up as not speaking up about our achievements (_"why would I bother people_"), not trying to track docs metrics or not communicating them (_"who in my company cares"_) and not being open to opportunities (_"who on Earth would want to listen to my conference talk"_). And for women, this tendency is often even more deeply rooted.
 
 ## Organizational mindset shift
 
