@@ -1,0 +1,13 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const postContent = document.querySelector('.post-content');
+  if (postContent) {
+    const links = postContent.getElementsByTagName('a');
+    for (let link of links) {
+      if (!link.target) {
+        link.target = '_blank';
+      }
+    }
+  }
+});
+</script>

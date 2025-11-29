@@ -242,6 +242,10 @@ table {
   }
 }
 
+// Blog post links
+.post-content a[target="_blank"] {
+}
+
 // Footer and social media
 .footer-text p {
   @extend .text-center;

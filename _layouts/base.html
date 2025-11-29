@@ -17,6 +17,9 @@
 
     {%- include sub-footer.html -%}
 
+    {% if page.layout == 'post' %}
+      {%- include post-links.html -%}
+    {% endif %}
   </body>
 
 </html>
