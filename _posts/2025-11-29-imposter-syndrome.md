@@ -7,7 +7,7 @@ author: [Daria Lutchenko]
 permalink: /imposter-syndrome
 ---
 
-With this phrase stuck in my mind, I kept thinking about how natural it is for technical writers to feel inadequate. From underinvestment to the difficulty of measuring our impact, we might get stuck in a loop of feeling unappreciated. In this article, I want to talk about the mindset shift we need to make on a personal level to help our companies recognize our value.
+With this phrase stuck in my mind, I kept thinking about how natural it is for technical writers to feel inadequate. From underinvestment to the difficulty of measuring our impact, we might get stuck in a loop of feeling unappreciated. In this post, I want to talk about the mindset shift we need to make on a personal level to help our companies recognize our value.
 
 ---
 
@@ -26,7 +26,7 @@ I'm just (select what's applicable):
 - always overpreparing
 {% endhighlight %}
 
-As a profession, technical writing has a natural inclination towards imposter syndrome. It's hard to measure your impact. Sales folks have quantitative KPIs, product folks track engagement and revenue coming through their product, marketing folks monitor views and clicks. Technical writers? Nah. There's this long-standing discussion: how do you interpret the amount of time people spend on a given page?
+As a profession, technical writing has a natural inclination towards imposter syndrome. It's hard to measure your impact. Sales folks have quantitative KPIs, product folks track engagement and revenue coming through their product, marketing folks monitor views and clicks. Technical writers? Nah. It's messy and complicated. For example, there's this long-standing discussion: how do you interpret the amount of time people spend on a given page?
 - If people spend **too little time** on a page, it's bad because it means:
   - They couldn't find anything useful to them.
   - The title or navigation is confusing, and this page doesn't cover the topic they were looking for.
@@ -66,10 +66,10 @@ Include it in your quarterly plans and put it on your Jira boards. Block time sl
 
 Things that you could do:
 
-- **Changelog.** You could establish an internal changelog for any content changes, where you'd publish a weekly or bi-weekly summary of updates. Bonus: it could also serve as a tool for communicating releases, especially in teams with product silos.
+- **Changelog.** You could establish an internal changelog for any content changes, where you'd publish a weekly summary of updates. Bonus: it could also serve as a tool for communicating releases, especially in teams with product silos.
 - **Marketing posts.** You could explain a complicated concept introduced by a new product feature, or share insights about your docs and processes.
 - **Workshops.** You could organize training sessions to teach teams how to write and structure their internal docs. Alternatively, you could share with them guidelines on public communication.
-- **Style guides.** Related to the previous point – establish and share style guides. If no tone of voice or style guide exists yet, it’s even more important. Set it up, announce it, and share it.
-- **Presentations.** If your company hosts regular internal presentations, you could submit a proposal for a short talk to share how you work and your processes. Bonus: if other teams aren't following the request-the-docs processes you set up, this can serve as a gentle reminder of the correct way to do it.
+- **Style guides.** Related to the previous point, you could share style guides. If no tone of voice or style guide exist yet, it’s even more important. Set it up, announce it, and share it.
+- **Presentations.** If your company hosts regular internal presentations, you could submit a proposal for a short talk to share rechnical writing principles and how you work. Bonus: if other teams aren't following the "how-to-request-docs" processes you set up, this will serve as a gentle reminder of the correct way to do it.
 
 And, answering the question in the title: yes, you are good enough. Time to beat the imposter syndrome.
