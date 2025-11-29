@@ -3,7 +3,7 @@ layout: post
 title: Are you even good enough to have imposter syndrome?
 date: 2025-11-29
 author: [Daria Lutchenko]
-linkedin: https://linkedin.com/
+# linkedin: https://linkedin.com/
 permalink: /imposter-syndrome
 ---
 
@@ -56,9 +56,9 @@ At the [DevPortal Awards 2025 gala](https://youtu.be/W2wbEE7fddY?t=4205), I was 
 
 > Do you remember an "aha!" or faith-changing moment when the appreciation of the documentation itself suddenly changed, or was this always the case?
 
-When she asked that, I let out a laugh — although, I don't remember a specific moment, but I remember when I realized that the mindset shift had happened. Looking back at my experience I do believe that a writer can influence how the organization as a whole treats documentation work.
+When Laura had asked that, I let out a laugh. Although, I don't remember a specific moment, but I remember when I realized that the mindset shift had happened. Looking back at my experience I do believe that a writer can influence how the organization as a whole treats documentation work.
 
-The first shift is a personal one. You need to treat this as a non-negotiable personal KPI. I remember how I was twisting and turning at the prospect of having to do anything visibility-related. _Just give me a laptop and let me write in peace!_ But this is mutually exclusive. Engineers can afford the "laptop + coding in peace" because they don't have to prove their value. Technical writers can't.
+The first step is your own mindset shift. You need to treat visibility and proactive internal communication of your or your team's work as a non-negotiable KPI. I remember how I was twisting and turning at the prospect of having to do anything visibility-related. _Just give me a laptop and let me write in peace!_ But this is something you need to push through. Engineers can afford the "laptop + coding in peace" because they don't have to prove their value. Technical writers can't.
 
 Have it on your quarterply plans and Jira boards. Block time slots on your calendar. Don't let the thoughts like _"it's just me tooting my own horn"_, _"that would be so vain of me"_ stop you. It's a KPI, so it's your job. Nothing more, nothing less. A work project that is helping you communicate the value of what you do to your company
 
