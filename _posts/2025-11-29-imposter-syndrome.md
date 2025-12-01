@@ -3,7 +3,7 @@ layout: post
 title: Are you even good enough to have imposter syndrome?
 date: 2025-11-29
 author: [Daria Lutchenko]
-# linkedin: https://linkedin.com/
+linkedin: https://www.linkedin.com/posts/daria-lutchenko_are-you-even-good-enough-to-have-imposter-activity-7401199553284288513-oERS
 permalink: /imposter-syndrome
 ---
 
