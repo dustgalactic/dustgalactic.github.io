@@ -17,11 +17,9 @@ Expertise is overrated. There, I said it! For a technical writer working in tech
 
 The value a technical writer brings doesn't come from specific industry knowledge. It comes from the process writers establish.
 
-{% highlight txt %}
-1. Set up clear channels of communication with stakeholders and be boundary spanners.
+1. Set up clear channels of communication with stakeholders and be [boundary spanners](https://en.wikipedia.org/wiki/Boundary_spanning).
 2. Dig into the core of the project to understand what's important and what's not.
 3. Create docs that cater to a specific audience looking to solve a specific problem.
-{% endhighlight %}
 
 It can be replicated in any industry.
 
@@ -29,9 +27,10 @@ Chances are, any given company already has subject-matter experts, the bearers o
 
 An industry outsider brings a fresh perspective. They are free from the [curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge) and are more likely to challenge the established norms. By bringing their experience from a different domain, these technical writers can be the spark that ignites the fire for a completely new approach.
 
-> "Why do we do it like this?"
->
-> "We've always done it this way!"
+{% highlight txt %}
+🤔 "Why do we do it like this?"
+🤷 "We've always done it this way!"
+{% endhighlight %}
 
 ## Sticking to the knitting
 
@@ -41,7 +40,7 @@ I often find myself promoting technical writing as a career choice to people who
 
 When you're a generalist switching industries and topics you're writing about, you also learn your limits. You discover what you're good at and excited to dig into. You learn what's challenging to you personally and what you'd like to stay clear of in the future. This is valuable information. But you will only find it if you explore.
 
-## How I got to experience different domains
+## My experience with different domains
 
 My stance on this topic was largely influenced by my start in technical writing. I began my technical writing career as a freelance writer at Yandex. Our technical writing department was organized into multiple teams, each responsible for docs for a specific product. Most tasks for a given product, especially the more complex ones, were handled within the team by writers who already had deep knowledge of that product. At the same time, we also had a shared pool of tasks where anyone could pick up and write docs for another team’s product.
 
