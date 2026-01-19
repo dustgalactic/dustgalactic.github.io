@@ -3,7 +3,7 @@ layout: post
 title: In praise of knowing nothing
 date: 2026-01-19
 author: [Daria Lutchenko]
-# linkedin: https://www.linkedin.com/posts/
+linkedin: https://www.linkedin.com/posts/
 permalink: /knowing-nothing
 ---
 
@@ -36,13 +36,13 @@ An industry outsider brings a fresh perspective. They are free from the [curse o
 
 There is a danger in becoming overspecialized in one industry, as you might start feeling that your knowledge inside this niche is where your power comes from. It really doesn't. It comes from being honest and challenging assumptions, from knowing how to structure and present information, from refusing to include fluff that wastes a reader's time. The danger of overspecializing is that it's comfortable... until it's not (e.g., industry bubbles and job market cycles).
 
-I often find myself promoting technical writing as a career choice to people who mention they are looking for a change but aren't sure what they want. The biggest selling point is that technical writing skills are transferable. If you eventually find that the role isn't for you, you’re still better off than when you started. Your skillset is broader now, so you haven't wasted your time. And those of us who have been doing it for some time might forget that. The power's in the skillset.
+I often find myself promoting technical writing as a career choice to people who mention they are looking for a change but aren't sure what they want. The biggest selling point is that technical writing skills are transferable. If you eventually find that the role isn't for you, you're still better off than when you started. Your skillset is broader now, so you haven't wasted your time. And those of us who have been doing it for some time might forget that. The power's in the skillset.
 
 When you're a generalist switching industries and topics you're writing about, you also learn your limits. You discover what you're good at and excited to dig into. You learn what's challenging to you personally and what you'd like to stay clear of in the future. This is valuable information. But you will only find it if you explore.
 
 ## My experience with different domains
 
-My stance on this topic was largely influenced by my start in technical writing. I began my technical writing career as a freelance writer at Yandex. Our technical writing department was organized into multiple teams, each responsible for docs for a specific product. Most tasks for a given product, especially the more complex ones, were handled within the team by writers who already had deep knowledge of that product. At the same time, we also had a shared pool of tasks where anyone could pick up and write docs for another team’s product.
+My stance on this topic was largely influenced by my start in technical writing. I began my technical writing career as a freelance writer at Yandex. Our technical writing department was organized into multiple teams, each responsible for docs for a specific product. Most tasks for a given product, especially the more complex ones, were handled within the team by writers who already had deep knowledge of that product. At the same time, we also had a shared pool of tasks where anyone could pick up and write docs for another team's product.
 
 This way:
 - Writers could discover products they enjoyed working on.
