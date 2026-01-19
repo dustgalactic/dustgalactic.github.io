@@ -7,7 +7,7 @@ author: [Daria Lutchenko]
 permalink: /knowing-nothing
 ---
 
-I stand by the idea that technical writers shouldn't be expected to have industry expertise. Beyond that, there's value when a writer comes from a different industry, brings new ideas, and challenges assumptions. In this post, I want to explore the topic of embracing versatility in hiring (and applying), and how, by leaning on subject-matter experts, technical writers can maximize their unique value.
+I stand by the idea that, more often than not, technical writers shouldn't be expected to have industry expertise. Beyond that, there's value when a writer comes from a different industry, brings new ideas, and challenges existing assumptions. In this post, I want to explore the topic of embracing versatility in hiring (and applying), and how, by leaning on subject-matter experts, technical writers can maximize their unique value.
 
 ---
 
@@ -16,21 +16,28 @@ I stand by the idea that technical writers shouldn't be expected to have industr
 Expertise is overrated. There, I said it! For a technical writer working in tech, it doesn't matter. At least it doesn't matter as much as hiring managers think it does.
 
 The value a technical writer brings doesn't come from specific industry knowledge. It comes from the process writers establish.
-1. Set up clear channels of communication with stakeholders and be [boundary spanners](https://en.wikipedia.org/wiki/Boundary_spanning).
+
+{% highlight txt %}
+1. Set up clear channels of communication with stakeholders and be boundary spanners.
 2. Dig into the core of the project to understand what's important and what's not.
 3. Create docs that cater to a specific audience looking to solve a specific problem.
+{% endhighlight %}
 
 It can be replicated in any industry.
 
-Chances are, any given company already has subject-matter experts, the bearers of knowledge. People with PhDs on the topic, people who have been working in this industry for many years, people who have been with the company for many years and know who to talk to and the context behind decisions impacting the present. A technical writer can't be, and I'd argue _should not ever be expected_ to be it all.
+Chances are, any given company already has subject-matter experts, the bearers of knowledge. People with PhDs on the topic, people who have been working in this industry or have been with the company for many years and know who to talk to and the context behind decisions impacting the present. A technical writer can't be, and I'd argue _should not ever be expected_ to be it all.
 
-An industry outsider brings a fresh perspective. They are free from the [curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge) and are more likely to challenge the assumptions and established norms. By bringing their experience from a different domain, these technical writers can be the spark that ignites the fire for a completely new approach.
+An industry outsider brings a fresh perspective. They are free from the [curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge) and are more likely to challenge the established norms. By bringing their experience from a different domain, these technical writers can be the spark that ignites the fire for a completely new approach.
+
+> "Why do we do it like this?"
+>
+> "We've always done it this way!"
 
 ## Sticking to the knitting
 
 There is a danger in becoming overspecialized in one industry, as you might start feeling that your knowledge inside this niche is where your power comes from. It really doesn't. It comes from being honest and challenging assumptions, from knowing how to structure and present information, from refusing to cave in to including content that wastes a reader's time. The danger of overspecializing is that it's comfortable... until it's not (e.g., industry bubbles and job market cycles).
 
-I often find myself promoting technical writing as a career choice to people who mention they are looking for a change but aren't sure what they want. The biggest selling point is that technical writing skills are transferable. If you eventually find that the role isn't for you, you’re still better off than when you started. Your skillset is broader, and you haven't wasted your time. And those of us, who have been doing it for some time, might forget that.
+I often find myself promoting technical writing as a career choice to people who mention they are looking for a change but aren't sure what they want. The biggest selling point is that technical writing skills are transferable. If you eventually find that the role isn't for you, you’re still better off than when you started. Your skillset is broader now, so you haven't wasted your time. And those of us, who have been doing it for some time, might forget that. The power's in the skillset.
 
 When you're a generalist switching industries and topics you're writing about, you also learn your limits. You discover what you're good at and excited to dig into. You learn what's challenging to you personally and what you'd like to stay clear of in the future. This is valuable information. But you will only find it if you explore.
 
@@ -46,7 +53,7 @@ As a bonus point, if team members didn't have the capacity to work on the team's
 
 That setup allowed me to work with many different teams on a variety of products:
 - **Crowdsourcing platform** (my first API reference!)
-- **Route planning platform** (still traumatized by all the Excel examples we had to put together)
+- **Route planning platform** (not afraid of Excel at all after those examples we had to put together)
 - **Smart home platform** (started treating information architecture seriously)
 - **App development platform** (here I got my first exposure to developer experience)
 - **Advertising platform** (taught me a lot in stakeholder management and how releases should be handled)
