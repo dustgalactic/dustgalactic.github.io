@@ -3,7 +3,7 @@ layout: post
 title: In praise of knowing nothing
 date: 2026-01-19
 author: [Daria Lutchenko]
-linkedin: https://www.linkedin.com/posts/
+linkedin: https://www.linkedin.com/posts/daria-lutchenko_in-praise-of-knowing-nothing-activity-7419002742892974080-jhAX
 permalink: /knowing-nothing
 ---
 
