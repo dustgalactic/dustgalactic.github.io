@@ -28,13 +28,13 @@ The dilemma, as I see it, is that stakeholders can sometimes over-prescribe solu
 You were assigned a ticket. You've worked on it and submitted it for review. And then you get this comment:
 
 {% highlight txt %}
-"Maybe more screenshots?"
+👨‍💻: "Maybe more screenshots?"
 {% endhighlight %}
 
 We're experts in what we do. We've gone over countless style guides and created our own. We spent years honing the craft. We defined word lists for the products we work on, maybe even spent a substantial amount of time in our careers carving out our space [in a specific industry](https://techdaria.com/knowing-nothing).
 
 {% highlight txt %}
-"This guide only has 3 sections, it's very short."
+👨‍💻: "This guide only has 3 sections, it's very short."
 {% endhighlight %}
 
 I'm currently reading [Think Twice](https://www.goodreads.com/book/show/6833940-think-twice) and stumbled upon this pretty straightforward quote:
@@ -47,13 +47,13 @@ I'm currently reading [Think Twice](https://www.goodreads.com/book/show/6833940-
 Put bluntly: as technical writing experts, sometimes we _do_ know better. Sometimes you really need just one day of work to finish something. It doesn't make the work any less valuable.
 
 {% highlight txt %}
-"Shouldn't we document every possible setup variation?"
+👨‍💻: "Shouldn't we document every possible setup variation?"
 {% endhighlight %}
 
 There should still be curiosity in communication and getting to the point of the problem the other person is pointing to, but it should never be a case of just doing something because someone said so.
 
 {% highlight txt %}
-"I think you should break every parameter out into its own separate section."
+👨‍💻: "I think you should break every parameter out into its own separate section."
 {% endhighlight %}
 
 Something that I learned when I started my path in product management is: “Don't tell me the solution to use. Tell me the problem, and I'll figure out how to solve it.” Or, how Neil Gaiman put it (thanks to [Saad](https://www.linkedin.com/in/saadrayees/) for the quote!):
@@ -66,19 +66,19 @@ Dig past the solution offered. Figure out the concern behind it. It helps incorp
 And then we can still find ourselves in a ticket with a stakeholder typing these words in a comment: “The release is tomorrow.” They created the ticket a day prior.
 
 {% highlight txt %}
-"Why does the documentation for this feature take so long?"
+👨‍💻: "Why does the documentation for this feature take so long?"
 {% endhighlight %}
 
 It means that there's a _system_ in place where stakeholders have come to expect this from us. Where an unspoken agreement was established that this little notice is acceptable and this is how much time it takes. We never showed how much effort it takes to produce the work.
 
 {% highlight txt %}
-"Here's text I generated from code, can't you polish it a little and use it?"
+👨‍💻: "Here's text I generated from code, can't you polish it a little and use it?"
 {% endhighlight %}
 
-I think it's acceptable for some situations. Work can be unpredictable and it's important to be flexible in certain situations. The danger is when it starts creeping into the day-to-day. After all, nothing is more permanent than the temporary.
+Short-notice work is acceptable for some situations. Work can be unpredictable and it's important to be flexible in certain situations. The danger is when it starts creeping into the day-to-day. After all, nothing is more permanent than the temporary.
 
 {% highlight txt %}
-"Why are you spending time interviewing three different engineers?"
+👨‍💻: "Why are you spending time interviewing three different engineers?"
 {% endhighlight %}
 
 Not all tasks are equal. A technical writer can quickly turn around a task of the format they've done a dozen times. But as new functionalities get added to the product, new ways for customers to interact with it appear, the technical writer would need to:
@@ -88,13 +88,13 @@ Not all tasks are equal. A technical writer can quickly turn around a task of th
 - Figure out where to put it within the architecture of the docs
 - and so on...
 
-It's an iceberg. The visible part: the page with the docs. The invisible part: editing reusable snippets, replacing the updated terms all over, setting up redirects, testing different layouts to see what works best, solving merge conflicts... In some cases, it makes sense to communicate the invisible part, via an interna; page of the description of the writing process, for example.
+It's an iceberg. The visible part: the page with the docs. The invisible part, to list a few: editing reusable snippets, replacing the updated terms all over, setting up redirects, testing different layouts to see what works best, solving merge conflicts. In some cases, it makes sense to communicate the invisible part, via an internal page with the description of the writing process, for example.
 
 {% highlight txt %}
-You don't need to set up a local environment and test it yourself to write docs.
+👨‍💻: "You don't need to set up a local environment and test it yourself to write docs."
 {% endhighlight %}
 
-Technical writers are the voice of the customer. To write something useful and usable, we need to adopt this persona. Customer [LARPing](https://en.wikipedia.org/wiki/Live_action_role-playing_game), if I may. When we talk to stakeholders and ask questions, we're doing that on customer's behalf. This is an integral part of the process that can't be shortcut. Docs are not a bottleneck. Docs are a stress test and a sanity check.
+Technical writers are the voice of the customer. To write something useful and usable, we need to adopt a customer persona. Customer [LARPing](https://en.wikipedia.org/wiki/Live_action_role-playing_game), if I may. When we talk to stakeholders and ask questions, we're doing that on customer's behalf. This is an integral part of the process that can't be shortcut. Docs are not a bottleneck. Docs are a stress test and a sanity check.
 
 ## The exploration continues
 
