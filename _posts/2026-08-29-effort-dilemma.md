@@ -28,14 +28,10 @@ The dilemma, as I see it, is that stakeholders can sometimes over-prescribe solu
 You were assigned a ticket. You've worked on it and submitted it for review. And then you get this comment:
 
 {% highlight txt %}
-👨‍💻: "Maybe more screenshots?"
+👨‍💻: "Maybe more screenshots? Also, this guide only has 3 sections, it's very short."
 {% endhighlight %}
 
 We're experts in what we do. We've gone over countless style guides and created our own. We spent years honing the craft. We defined word lists for the products we work on, maybe even spent a substantial amount of time in our careers carving out our space [in a specific industry](https://techdaria.com/knowing-nothing).
-
-{% highlight txt %}
-👨‍💻: "This guide only has 3 sections, it's very short."
-{% endhighlight %}
 
 I'm currently reading [Think Twice](https://www.goodreads.com/book/show/6833940-think-twice) and stumbled upon this pretty straightforward quote:
 > The experts internalize the salient features of the system they are dealing with, freeing attention for higher-level, analytical thinking. This explains a number of the universal characteristics of experts, including the following:
@@ -46,17 +42,8 @@ I'm currently reading [Think Twice](https://www.goodreads.com/book/show/6833940-
 
 Put bluntly: as technical writing experts, sometimes we _do_ know better. Sometimes you really need just one day of work to finish something. It doesn't make the work any less valuable.
 
-{% highlight txt %}
-👨‍💻: "Shouldn't we document every possible setup variation?"
-{% endhighlight %}
+I believe there should still be curiosity in getting to the root of the problem the other person is pointing to, but it should never be a case of just doing something because someone said so. Something I learned when I started working in product management is: "Don't tell me the solution to use. Tell me the problem, and I'll figure out how to solve it." Or, how Neil Gaiman put it (thanks to [Saad](https://www.linkedin.com/in/saadrayees/) for the quote!):
 
-I believe there should still be curiosity in getting to the root of the problem the other person is pointing to, but it should never be a case of just doing something because someone said so.
-
-{% highlight txt %}
-👨‍💻: "I think you should break every parameter out into its own separate section."
-{% endhighlight %}
-
-Something I learned when I started working in product management is: "Don't tell me the solution to use. Tell me the problem, and I'll figure out how to solve it." Or, how Neil Gaiman put it (thanks to [Saad](https://www.linkedin.com/in/saadrayees/) for the quote!):
 > Remember: when people tell you something's wrong or doesn't work for them, they are almost always right. When they tell you exactly what they think is wrong and how to fix it, they are almost always wrong.
 
 Dig past the solution offered. Figure out the concern behind it. It helps you incorporate unique ideas and challenge your assumptions without necessarily surrendering your expertise.
@@ -69,16 +56,10 @@ And then we can still find ourselves in a ticket with a stakeholder typing these
 👨‍💻: "Why does the documentation for this feature take so long?"
 {% endhighlight %}
 
-It means there's a _system_ in place where stakeholders have come to expect this from us. Where an unspoken agreement was established that this amount of notice is acceptable and this is how much time it takes. We never showed how much effort it takes to produce the work.
+It means there's a _system_ in place where stakeholders have come to expect this from us. Where an unspoken agreement was established that this amount of notice is acceptable and this is how much time it takes. We never showed how much effort it takes to produce the work. Short notice _can_ be acceptable for some situations. Work can be unpredictable, and it's important to be flexible in certain cases. The danger is when it starts creeping into the day-to-day. After all, nothing is more permanent than the temporary.
 
 {% highlight txt %}
 👨‍💻: "Here's text I generated from code, can't you polish it a little and use it?"
-{% endhighlight %}
-
-Short notice _can be_ acceptable for some situations. Work can be unpredictable, and it's important to be flexible in certain situations. The danger is when it starts creeping into the day-to-day. After all, nothing is more permanent than the temporary.
-
-{% highlight txt %}
-👨‍💻: "Why are you spending time interviewing three different engineers?"
 {% endhighlight %}
 
 Not all tasks are equal. A technical writer can quickly turn around a task they've done a dozen times before. But as new functionalities get added to the product, new ways for customers to interact with it appear, the technical writer would need to:
@@ -91,7 +72,7 @@ Not all tasks are equal. A technical writer can quickly turn around a task they'
 It's an iceberg. The visible part: the page with the docs. The invisible part includes, to name a few: editing reusable snippets, replacing updated terms throughout the docs, setting up redirects, testing different layouts to see what works best, solving merge conflicts. In some cases, it makes sense to communicate the invisible part, via an internal page describing the writing process, for example.
 
 {% highlight txt %}
-👨‍💻: "You don't need to set up a local environment and test it yourself to write docs."
+👨‍💻: "Why are you spending time interviewing three different engineers?"
 {% endhighlight %}
 
 Technical writers are usually the voice of the customer. To write something useful and usable, we need to adopt a customer persona. Customer [LARPing](https://en.wikipedia.org/wiki/Live_action_role-playing_game), if I may. When we talk to stakeholders and ask questions, we're doing that on the customer's behalf. This is an integral part of the process that can't be shortcut. Docs are not a bottleneck. Docs are a stress test and a sanity check.
