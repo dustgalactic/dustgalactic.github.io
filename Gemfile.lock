@@ -45,6 +45,7 @@ GEM
       logger
     faraday-net_http (3.4.2)
       net-http (~> 0.5)
+    ffi (1.17.2-arm64-darwin)
     ffi (1.17.2-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
@@ -236,6 +237,8 @@ GEM
     minitest (5.26.2)
     net-http (0.8.0)
       uri (>= 0.11.1)
+    nokogiri (1.18.10-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.18.10-x64-mingw-ucrt)
       racc (~> 1.4)
     nuggets (1.6.1)
@@ -271,10 +274,10 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     uri (1.1.1)
-    wdm (0.2.0)
     webrick (1.9.2)
 
 PLATFORMS
+  arm64-darwin-25
   x64-mingw-ucrt
 
 DEPENDENCIES
@@ -282,7 +285,6 @@ DEPENDENCIES
   jekyll-seo-tag (~> 2.8.0)
   jekyll-sitemap (~> 1.4.0)
   jekyll-tagging (~> 1.1.0)
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.7.2
