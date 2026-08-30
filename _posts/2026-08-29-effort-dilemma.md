@@ -31,6 +31,8 @@ You were assigned a ticket. You've worked on it and submitted it for review. And
 👨‍💻: "Maybe more screenshots? Also, this guide only has 3 sections, it's very short."
 {% endhighlight %}
 
+_Note: The 👨‍💻 quotes here and below are fictional, but based on common situations._
+
 We're experts in what we do. We've gone over countless style guides and created our own. We spent years honing the craft. We defined word lists for the products we work on, maybe even spent a substantial amount of time in our careers carving out our space [in a specific industry](https://techdaria.com/knowing-nothing).
 
 I'm currently reading [Think Twice](https://www.goodreads.com/book/show/6833940-think-twice) and stumbled upon this pretty straightforward quote:
@@ -39,12 +41,11 @@ I'm currently reading [Think Twice](https://www.goodreads.com/book/show/6833940-
 > - Experts solve problems much faster than novices do.
 > - Experts represent problems at a deeper level than novices do.
 > - Experts can solve problems qualitatively.
+> <div align="right">— Michael J. Mauboussin, Think Twice: Harnessing the Power of Counterintuition</div>
 
 Put bluntly: as technical writing experts, sometimes we _do_ know better. Sometimes you really need just one day of work to finish something. It doesn't make the work any less valuable.
 
-I believe there should still be curiosity in getting to the root of the problem the other person is pointing to, but it should never be a case of just doing something because someone said so. Something I learned when I started working in product management is: "Don't tell me the solution to use. Tell me the problem, and I'll figure out how to solve it." Or, how Neil Gaiman put it (thanks to [Saad](https://www.linkedin.com/in/saadrayees/) for the quote!):
-
-> Remember: when people tell you something's wrong or doesn't work for them, they are almost always right. When they tell you exactly what they think is wrong and how to fix it, they are almost always wrong.
+I believe there should still be curiosity in getting to the root of the problem the other person is pointing to, but it should never be a case of just doing something because someone said so. Something I learned when I started working in product management is: "Don't tell me the solution to use. Tell me the problem, and I'll figure out how to solve it."
 
 Dig past the solution offered. Figure out the concern behind it. It helps you incorporate unique ideas and challenge your assumptions without necessarily surrendering your expertise.
 
