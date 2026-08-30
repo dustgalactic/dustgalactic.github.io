@@ -31,7 +31,7 @@ You were assigned a ticket. You've worked on it and submitted it for review. And
 👨‍💻: "Maybe more screenshots? Also, this guide only has 3 sections, it's very short."
 {% endhighlight %}
 
-_Note: The 👨‍💻 quotes here and below are fictional, but based on common situations._
+_Note: The 👨‍💻 quotes here and below are fictional, for illustrative purposes._
 
 We're experts in what we do. We've gone over countless style guides and created our own. We spent years honing the craft. We defined word lists for the products we work on, maybe even spent a substantial amount of time in our careers carving out our space [in a specific industry](https://techdaria.com/knowing-nothing).
 
