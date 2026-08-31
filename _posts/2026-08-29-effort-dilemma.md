@@ -3,7 +3,7 @@ layout: post
 title: The effort dilemma
 date: 2026-08-29
 author: [Daria Lutchenko]
-# linkedin: https://www.linkedin.com/posts/
+linkedin: https://www.linkedin.com/posts/daria-lutchenko_my-first-attempt-at-putting-this-dilemma-share-7499445943294132225-MkLC
 permalink: /effort-dilemma
 ---
 
