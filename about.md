@@ -6,7 +6,7 @@ permalink: /about
 
 ## Welcome!
 
-Hi, I’m Daria. A technical writer turned product lead.
+Hi, I’m Daria. A technical writer turned team lead.
 
 <img src="/assets/images/profile-picture.jpg" alt="Profile picture" width="340">
 

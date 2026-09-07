@@ -7,28 +7,14 @@
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
     {%- unless page_titles == empty %}
-      <details class="site-nav" open>
-        <summary class="nav-trigger">
-          <span class="visually-hidden">Main navigation</span>
-          <svg class="menu-icon" aria-hidden="true" viewBox="0 0 24 24">
-            <path d="M4 7h16M4 12h16M4 17h16"/>
-          </svg>
-        </summary>
-        <nav aria-label="Main navigation">
-          {% include nav-items.html paths = page_paths %}
-        </nav>
-      </details>
-      <script>
-        (function () {
-          const navigation = document.querySelector('.site-nav');
-          const mobileQuery = window.matchMedia('(max-width: 600px)');
-          const syncNavigation = (event) => {
-            navigation.open = !event.matches;
-          };
-          syncNavigation(mobileQuery);
-          mobileQuery.addEventListener('change', syncNavigation);
-        }());
-      </script>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        {% include nav-items.html paths = page_paths %}
+      </nav>
     {%- endunless %}
   </div>
 </header>
