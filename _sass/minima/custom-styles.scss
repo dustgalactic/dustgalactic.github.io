@@ -349,9 +349,18 @@ textarea,
     transform: translateY(-4px);
   }
 
+  &:focus {
+    border-radius: 12px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
   &:focus-visible {
     outline: 3px solid rgba($accent-color, 0.45);
     outline-offset: 4px;
+    border-radius: 12px;
   }
 }
 
