@@ -13,7 +13,7 @@ description: Selected product and technical communication work by Daria Lutchenk
       <img src="{{ case_study.image | relative_url }}" alt="{{ case_study.image_alt | default: '' | escape }}">
     </div>
     <div class="portfolio-card__body">
-      <p class="portfolio-card__meta">{{ case_study.portfolio_label | default: "Case study" | escape }}</p>
+      <p class="portfolio-card__meta">{{ case_study.label | default: "Case study" | escape }}</p>
       <h2>{{ case_study.title | escape }}</h2>
       <p>{{ case_study.description | escape }}</p>
     </div>
