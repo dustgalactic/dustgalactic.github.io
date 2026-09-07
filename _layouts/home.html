@@ -23,10 +23,10 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
         <li class="post-item">
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3 class="post-title">
+          <time class="post-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+          <h2 class="post-title">
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h3>
+          </h2>
 
           {%- if site.minima.show_excerpts -%}
             <div class="post-excerpt">
@@ -38,7 +38,7 @@ layout: base
     </ul>
     
     {% if paginator.total_pages > 1 %}
-      <div class="pager">
+      <nav class="pager" aria-label="Pagination">
         <ul class="pagination">
           {% if paginator.previous_page %}
             <li>
@@ -48,7 +48,7 @@ layout: base
             <li><div class="pager-edge">•</div></li>
           {% endif %}
 
-          <li><div class="current-page">Page {{ paginator.page }} of {{ paginator.total_pages }}</div></li>
+          <li><div class="current-page" aria-current="page">Page {{ paginator.page }} of {{ paginator.total_pages }}</div></li>
 
           {% if paginator.next_page %}
             <li>
@@ -58,7 +58,7 @@ layout: base
             <li><div class="pager-edge">•</div></li>
           {% endif %}
         </ul>
-      </div>
+      </nav>
     {% endif %}
   {%- endif -%}
 
