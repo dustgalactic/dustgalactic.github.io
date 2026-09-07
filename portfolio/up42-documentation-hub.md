@@ -5,6 +5,7 @@ description: How I transformed UP42's documentation website from a help center i
 permalink: /portfolio/up42-documentation-hub
 label: B2B product case study
 image: /assets/images/portfolio/up42-documentation-hub-cover.png
+image_alt: A screenshot of Documentation hub's homepage showing a tasking order and captured imagery
 portfolio: true
 portfolio_order: 1
 
