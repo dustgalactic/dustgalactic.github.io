@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<article class="post case-study">
+
+  <header class="post-header">
+    <div class="post-header-top">
+      <a href="{{ '/portfolio/' | relative_url }}" class="back-to-posts">Back to Portfolio</a>
+    </div>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <div class="case-study-meta">{{ page.portfolio_label | escape }}</div>
+  </header>
+
+  <div class="post-content">
+    <p>{{ page.description | escape }}</p>
+
+    {{ content }}
+  </div>
+
+</article>

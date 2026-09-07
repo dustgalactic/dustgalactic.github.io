@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: case-study
 title: Turning documentation into a product discovery tool
 permalink: /portfolio/up42-documentation-hub
 description: How I transformed UP42's documentation website from a help center into an award-winning unified discovery experience.
@@ -9,16 +9,6 @@ portfolio: true
 portfolio_order: 1
 portfolio_label: B2B product case study
 ---
-
-<a class="case-study-back" href="{{ '/portfolio/' | relative_url }}">← All work</a>
-
-<div class="case-study-intro">
-  <p class="portfolio-kicker">{{ page.portfolio_label }}</p>
-  <p class="case-study-summary">
-    Complex products rarely need more information. They need the right
-    information, arranged around the decisions people are trying to make.
-  </p>
-</div>
 
 <div class="case-study-facts" aria-label="Case study focus">
   <div>
@@ -34,6 +24,8 @@ portfolio_label: B2B product case study
     <strong>Discovery &amp; communication</strong>
   </div>
 </div>
+
+<hr>
 
 ## The challenge
 
@@ -75,6 +67,6 @@ notice ambiguity, follow a user’s path through unfamiliar territory, and make
 every piece of information earn its place.
 
 <div class="case-study-footer">
-  <p>Have a complex product problem?</p>
+  <p>Building your next product?</p>
   <a href="mailto:email@techdaria.com">Let’s talk <span aria-hidden="true">→</span></a>
 </div>
