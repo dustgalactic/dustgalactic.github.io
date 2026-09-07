@@ -68,6 +68,6 @@ notice ambiguity, follow a user’s path through unfamiliar territory, and make
 every piece of information earn its place.
 
 <div class="case-study-footer">
-  <p>Exploring a documentation challenge?</p>
+  <p>Building your next product?</p>
   <a href="https://www.linkedin.com/in/daria-lutchenko/">Let’s connect <span aria-hidden="true">→</span></a>
 </div>
