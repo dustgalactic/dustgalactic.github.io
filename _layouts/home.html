@@ -48,7 +48,7 @@ layout: base
             <li><div class="pager-edge">•</div></li>
           {% endif %}
 
-          <li><span class="current-page" aria-current="page">Page {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
+          <li><div class="current-page" aria-current="page">Page {{ paginator.page }} of {{ paginator.total_pages }}</div></li>
 
           {% if paginator.next_page %}
             <li>

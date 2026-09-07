@@ -347,13 +347,13 @@
       border: 1px solid $border-color-01;
       &:hover { border-color: $border-color-02 }
     }
-    a, div, span {
+    a, div {
       min-width: 41px;
       padding: 10px 12px;
       text-align: center;
       box-sizing: border-box;
     }
-    div, span {
+    div {
       border: 1px solid transparent;
       &.pager-edge {
         color: $border-color-01;
