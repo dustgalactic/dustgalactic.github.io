@@ -2,8 +2,8 @@
 layout: page
 title: Turning documentation into a product discovery tool
 permalink: /portfolio/up42-documentation-hub
-description: How I transformed UP42's documentation website from a help center into a unified discovery experience.
-image: /assets/images/portfolio/product-clarity.svg
+description: How I transformed UP42's documentation website from a help center into an award-winning unified discovery experience.
+image: /assets/images/portfolio/up42-documentation-hub-cover.png
 image_alt: Abstract geometric illustration in teal, beige, and black
 portfolio: true
 portfolio_order: 1

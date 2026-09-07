@@ -335,7 +335,6 @@ textarea,
   display: flex;
   min-width: 0;
   flex-direction: column;
-  overflow: hidden;
   color: $text-color !important;
   background: $background-color;
   border: 1px solid #d4d0cc;
@@ -357,13 +356,14 @@ textarea,
 }
 
 .portfolio-card__visual {
-  overflow: hidden;
   background: $block-background;
+  border-radius: 11px 11px 0 0;
 
   img {
     display: block;
     width: 100%;
     aspect-ratio: 40 / 23;
+    border-radius: inherit;
     object-fit: cover;
   }
 }
