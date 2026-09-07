@@ -1,0 +1,77 @@
+<aside class="page-toc" aria-label="Table of contents" hidden>
+  <nav class="page-toc__inner">
+    <p class="page-toc__title">On this page</p>
+    <ol class="page-toc__list"></ol>
+  </nav>
+</aside>
+
+<script>
+  (() => {
+    const article = document.currentScript.closest(".article-body-with-toc");
+    const toc = article && article.querySelector(".page-toc");
+    const content = article && article.querySelector(".post-content");
+
+    if (!toc || !content) return;
+
+    const headings = Array.from(content.querySelectorAll("h2[id], h3[id]"));
+    if (!headings.length) return;
+
+    const list = toc.querySelector(".page-toc__list");
+    const links = headings.map((heading) => {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+
+      item.className = `page-toc__item page-toc__item--${heading.tagName.toLowerCase()}`;
+      link.href = `#${heading.id}`;
+      link.textContent = heading.textContent;
+      item.appendChild(link);
+      list.appendChild(item);
+
+      return link;
+    });
+
+    const setActive = (activeHeading) => {
+      links.forEach((link, index) => {
+        const isActive = headings[index] === activeHeading;
+        link.classList.toggle("is-active", isActive);
+
+        if (isActive) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    };
+
+    let ticking = false;
+    const updateActive = () => {
+      const scrolledToEnd = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+      let activeHeading = headings[headings.length - 1];
+
+      if (!scrolledToEnd) {
+        const focusLine = Math.min(180, window.innerHeight * 0.25);
+        activeHeading = headings[0];
+
+        headings.forEach((heading) => {
+          if (heading.getBoundingClientRect().top <= focusLine) {
+            activeHeading = heading;
+          }
+        });
+      }
+
+      setActive(activeHeading);
+      ticking = false;
+    };
+
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        window.requestAnimationFrame(updateActive);
+        ticking = true;
+      }
+    }, { passive: true });
+
+    window.addEventListener("resize", updateActive);
+    toc.hidden = false;
+    updateActive();
+  })();
+</script>

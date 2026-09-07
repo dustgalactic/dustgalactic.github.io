@@ -125,14 +125,88 @@
 
 // Meta information and excerpts
 .post-meta {
-  @extend .text-muted;
+  color: $text-muted;
   font-size: 0.85rem;
+  font-weight: 400;
 }
 
 .post-excerpt,
 .post-excerpt p {
   @extend .text-secondary;
   margin: 0.5rem 0;
+}
+
+.article-body-with-toc {
+  position: relative;
+}
+
+.post-content h2[id],
+.post-content h3[id] {
+  scroll-margin-top: 2rem;
+}
+
+.page-toc {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(100% + 1rem);
+  width: 140px;
+}
+
+.page-toc__inner {
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+}
+
+.page-toc__title {
+  margin: 0 0 0.65rem;
+  color: $text-color;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.page-toc__list {
+  margin: 0;
+  padding: 0 0 0 0.75rem;
+  border-left: 1px solid #d4d0cc;
+  list-style: none;
+}
+
+.page-toc__item {
+  margin: 0;
+
+  &--h3 {
+    padding-left: 0.75rem;
+  }
+
+  a {
+    display: block;
+    padding: 0.3rem 0;
+    color: $text-muted;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    text-decoration: none;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: $accent-color;
+      text-decoration: none;
+    }
+
+    &.is-active {
+      color: $accent-color;
+      font-weight: 700;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .page-toc {
+    display: block;
+  }
 }
 
 // Code and syntax highlighting
@@ -275,4 +349,257 @@ textarea,
 .nav-item,
 .site-title {
   @include focus-state();
+}
+
+.site-nav .nav-item {
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.35em;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+
+  &:hover,
+  &.nav-item--active {
+    color: $text-color;
+    text-decoration-color: $accent-color;
+  }
+}
+
+// =============================================
+// 3. Portfolio
+// =============================================
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  align-items: stretch;
+
+  // Keep a single project centered; additional cards fill the grid naturally.
+  .portfolio-card:only-child {
+    grid-column: 1 / -1;
+    width: 44%;
+    justify-self: center;
+  }
+}
+
+.portfolio-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  color: $text-color !important;
+  background: $background-color;
+  border: 1px solid #d4d0cc;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(31, 31, 31, 0.06);
+  text-decoration: none !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: rgba($accent-color, 0.55);
+    box-shadow: 0 14px 34px rgba(31, 31, 31, 0.12);
+    transform: translateY(-4px);
+  }
+
+  &:focus {
+    border-radius: 12px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 3px solid rgba($accent-color, 0.45);
+    outline-offset: 4px;
+    border-radius: 12px;
+  }
+}
+
+.portfolio-card__visual {
+  background: $block-background;
+  border-radius: 11px 11px 0 0;
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 40 / 23;
+    border: 0;
+    border-radius: inherit;
+    object-fit: cover;
+  }
+}
+
+.portfolio-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.65rem;
+
+  h2 {
+    margin: 0 0 0.75rem;
+    color: $text-color;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  > p:not(.portfolio-card__meta) {
+    margin: 0 0 1.5rem;
+    color: $text-secondary;
+    line-height: 1.6;
+  }
+}
+
+.case-study-meta,
+.portfolio-card__meta {
+  color: $accent-color;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.portfolio-card__meta {
+  margin: 0 0 0.65rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+img.image-center,
+.image-center img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-image-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem 0;
+
+  > :first-child {
+    align-self: start;
+  }
+
+  h2:first-child {
+    margin-top: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.case-study-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0.75rem 0;
+
+  div {
+    padding: 0 1.25rem;
+    text-align: center;
+
+    &:not(:last-child) {
+      border-right: 1px solid #d4d0cc;
+    }
+  }
+
+  span,
+  strong {
+    display: block;
+  }
+
+  span {
+    margin-bottom: 0.35rem;
+    color: $text-muted;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  strong {
+    color: $text-color;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+}
+
+.case-study-facts + hr {
+  margin-top: 0.75rem;
+}
+
+.case-study-quote {
+  margin: 2.5rem 0;
+  padding: 1.5rem 2rem;
+  color: $text-color;
+  background: $block-background;
+  border-left: 4px solid $accent-color;
+  font-size: 1.25rem;
+  line-height: 1.55;
+
+  p {
+    margin: 0;
+  }
+}
+
+.case-study-footer {
+  margin-top: 3.5rem;
+  padding: 2.25rem;
+  background: $block-background;
+  border-radius: 10px;
+  text-align: center;
+
+  p {
+    margin: 0 0 0.6rem;
+    color: $text-color;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  a {
+    color: $accent-color;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 700px) {
+  .text-image-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+
+    .portfolio-card:only-child {
+      grid-column: auto;
+      width: 100%;
+    }
+  }
+
+  .case-study-facts {
+    grid-template-columns: 1fr;
+    padding: 0;
+
+    div {
+      padding: 1rem;
+
+      &:not(:last-child) {
+        border-right: 0;
+        border-bottom: 1px solid #d4d0cc;
+      }
+    }
+  }
 }

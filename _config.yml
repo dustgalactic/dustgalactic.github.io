@@ -30,6 +30,7 @@ minima:
   skin: classic
   nav_pages:
     - index.html
+    - portfolio/index.html
     - about.md
   show_excerpts: true
   date_format: "%b %d, %Y"

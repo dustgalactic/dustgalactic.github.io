@@ -1,0 +1,22 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+description: Selected product and technical communication work by Daria Lutchenko.
+---
+
+{% assign case_studies = site.pages | where: "portfolio", true | sort: "portfolio_order" %}
+<div class="portfolio-grid" aria-label="Portfolio projects">
+  {% for case_study in case_studies %}
+  <a class="portfolio-card" href="{{ case_study.url | relative_url }}">
+    <div class="portfolio-card__visual">
+      <img src="{{ case_study.image | relative_url }}" alt="{{ case_study.image_alt | default: '' | escape }}">
+    </div>
+    <div class="portfolio-card__body">
+      <p class="portfolio-card__meta">{{ case_study.portfolio_label | default: "Case study" | escape }}</p>
+      <h2>{{ case_study.title | escape }}</h2>
+      <p>{{ case_study.description | escape }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
