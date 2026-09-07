@@ -276,3 +276,296 @@ textarea,
 .site-title {
   @include focus-state();
 }
+
+// =============================================
+// 3. Portfolio
+// =============================================
+
+.portfolio-intro {
+  max-width: 640px;
+  margin: -1rem auto 3rem;
+  text-align: center;
+}
+
+.portfolio-kicker {
+  margin: 0 0 0.75rem;
+  color: $accent-color;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.portfolio-lede {
+  margin: 0;
+  color: $text-secondary;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  align-items: stretch;
+
+  // Keep a single project centered; additional cards fill the grid naturally.
+  .portfolio-card:only-child {
+    grid-column: 1 / -1;
+    width: calc(50% - 1rem);
+    justify-self: center;
+  }
+}
+
+.portfolio-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  color: $text-color !important;
+  background: $background-color;
+  border: 1px solid #d4d0cc;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(31, 31, 31, 0.06);
+  text-decoration: none !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: rgba($accent-color, 0.55);
+    box-shadow: 0 14px 34px rgba(31, 31, 31, 0.12);
+    transform: translateY(-4px);
+
+    .portfolio-card__link {
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+    }
+  }
+
+  &:focus-visible {
+    outline: 3px solid rgba($accent-color, 0.45);
+    outline-offset: 4px;
+  }
+}
+
+.portfolio-card__visual {
+  position: relative;
+  min-height: 230px;
+  overflow: hidden;
+  background: $block-background;
+}
+
+.portfolio-card__shape,
+.portfolio-card__line,
+.portfolio-card__dot {
+  position: absolute;
+  display: block;
+}
+
+.portfolio-card__shape {
+  border-radius: 50%;
+
+  &--one {
+    top: -48px;
+    right: -18px;
+    width: 185px;
+    height: 185px;
+    background: $accent-color;
+    opacity: 0.9;
+  }
+
+  &--two {
+    bottom: -76px;
+    left: -34px;
+    width: 215px;
+    height: 215px;
+    border: 28px solid rgba($accent-color, 0.22);
+  }
+}
+
+.portfolio-card__line {
+  top: 53%;
+  left: 18%;
+  width: 62%;
+  height: 2px;
+  background: $text-color;
+  transform: rotate(-11deg);
+  transform-origin: center;
+}
+
+.portfolio-card__dot {
+  top: 48%;
+  left: 64%;
+  width: 18px;
+  height: 18px;
+  background: $text-color;
+  border: 6px solid $block-background;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px $text-color;
+}
+
+.portfolio-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.65rem;
+
+  h2 {
+    margin: 0 0 0.75rem;
+    color: $text-color;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  > p:not(.portfolio-card__meta) {
+    margin: 0 0 1.5rem;
+    color: $text-secondary;
+    line-height: 1.6;
+  }
+}
+
+.portfolio-card__meta {
+  margin: 0 0 0.65rem;
+  color: $accent-color;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.portfolio-card__link {
+  margin-top: auto;
+  color: $accent-color;
+  font-weight: 600;
+}
+
+.case-study-back {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  color: $text-muted;
+  font-size: 0.9rem;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent-color;
+  }
+
+  @include focus-state();
+}
+
+.case-study-intro {
+  max-width: 690px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.case-study-summary {
+  margin: 0;
+  color: $text-secondary;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.case-study-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 0 3.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid #d4d0cc;
+  border-bottom: 1px solid #d4d0cc;
+
+  div {
+    padding: 0 1.25rem;
+    text-align: center;
+
+    &:not(:last-child) {
+      border-right: 1px solid #d4d0cc;
+    }
+  }
+
+  span,
+  strong {
+    display: block;
+  }
+
+  span {
+    margin-bottom: 0.35rem;
+    color: $text-muted;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  strong {
+    color: $text-color;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+}
+
+.case-study-quote {
+  margin: 2.5rem 0;
+  padding: 1.5rem 2rem;
+  color: $text-color;
+  background: $block-background;
+  border-left: 4px solid $accent-color;
+  font-size: 1.25rem;
+  line-height: 1.55;
+
+  p {
+    margin: 0;
+  }
+}
+
+.case-study-footer {
+  margin-top: 3.5rem;
+  padding: 2.25rem;
+  background: $block-background;
+  border-radius: 10px;
+  text-align: center;
+
+  p {
+    margin: 0 0 0.6rem;
+    color: $text-color;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  a {
+    color: $accent-color;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio-intro {
+    margin-bottom: 2rem;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+
+    .portfolio-card:only-child {
+      grid-column: auto;
+      width: 100%;
+    }
+  }
+
+  .portfolio-card__visual {
+    min-height: 190px;
+  }
+
+  .case-study-facts {
+    grid-template-columns: 1fr;
+    padding: 0;
+
+    div {
+      padding: 1rem;
+
+      &:not(:last-child) {
+        border-right: 0;
+        border-bottom: 1px solid #d4d0cc;
+      }
+    }
+  }
+}
