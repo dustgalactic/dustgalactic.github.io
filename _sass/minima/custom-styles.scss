@@ -277,6 +277,20 @@ textarea,
   @include focus-state();
 }
 
+.site-nav .nav-item {
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.35em;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+
+  &:hover,
+  &.nav-item--active {
+    color: $text-color;
+    text-decoration-color: $accent-color;
+  }
+}
+
 // =============================================
 // 3. Portfolio
 // =============================================
