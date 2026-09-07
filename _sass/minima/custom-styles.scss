@@ -150,22 +150,16 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: calc(100% + 1rem);
-  width: 140px;
+  left: calc(100% + 1.25rem);
+  width: 220px;
 }
 
 .page-toc__inner {
   position: sticky;
   top: 2rem;
   max-height: calc(100vh - 4rem);
+  overflow-x: visible;
   overflow-y: auto;
-}
-
-.page-toc__title {
-  margin: 0 0 0.65rem;
-  color: $text-color;
-  font-size: 0.85rem;
-  font-weight: 600;
 }
 
 .page-toc__list {
@@ -187,7 +181,8 @@
     padding: 0.3rem 0;
     color: $text-muted;
     font-size: 0.82rem;
-    line-height: 1.35;
+    line-height: 1.4;
+    overflow-wrap: break-word;
     text-decoration: none;
     transition: color 0.15s ease;
 
@@ -203,7 +198,7 @@
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1280px) {
   .page-toc {
     display: block;
   }
@@ -475,32 +470,6 @@ img {
   border-radius: 10px;
 }
 
-img.image-center,
-.image-center img {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.text-image-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 2rem;
-  align-items: center;
-  margin: 2rem 0;
-
-  > :first-child {
-    align-self: start;
-  }
-
-  h2:first-child {
-    margin-top: 0;
-  }
-
-  img {
-    width: 100%;
-  }
-}
-
 .case-study-facts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -540,20 +509,6 @@ img.image-center,
   margin-top: 0.75rem;
 }
 
-.case-study-quote {
-  margin: 2.5rem 0;
-  padding: 1.5rem 2rem;
-  color: $text-color;
-  background: $block-background;
-  border-left: 4px solid $accent-color;
-  font-size: 1.25rem;
-  line-height: 1.55;
-
-  p {
-    margin: 0;
-  }
-}
-
 .case-study-footer {
   margin-top: 3.5rem;
   padding: 2.25rem;
@@ -575,11 +530,6 @@ img.image-center,
 }
 
 @media (max-width: 700px) {
-  .text-image-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
   .portfolio-grid {
     grid-template-columns: 1fr;
 
