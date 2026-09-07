@@ -33,7 +33,7 @@ portfolio_order: 1
        <a href="https://up42.com">UP42</a> is a geospatial marketplace for satellite, aerial, and elevation data from multiple providers, with processing available on the same platform.
     </p>
     <p>
-       As product lead, I led a team consisting of technical writers, product managers, and frontend engineers building the <a href="https://docs.up42.com">Documentation hub</a>. Our product  supported customers from the discovery and evaluation of geospatial offerings through to the point at which they were ready to place an order. The portal was designed to guide customers through evaluation and bring them to the point where they could move confidently into the ordering experience.
+       As product lead, I led a team consisting of technical writers, product managers, and frontend engineers building the <a href="https://docs.up42.com">Documentation hub</a>. Our product supported customers from the discovery and evaluation of geospatial offerings through to the point at which they were ready to place an order. The portal was designed to guide customers through evaluation and bring them to the point where they could move confidently into the ordering experience.
     </p>
   </div>
   <img src="/assets/images/portfolio/up42-documentation-hub.png" alt="UP42 Documentation hub showing a tasking order and captured imagery">
@@ -43,7 +43,7 @@ When I joined in 2022, the portal operated as a help center. Documentation was p
 
 ## Building a decision-making product
 
-When I joined as a technical writer, one of my first product decisions was how the documentation should sound. Writing in the style of internal specifications doesn’t support evaluation or purchase, so with my team, we rewrote the portal documentation around two core principles:
+When I joined as a technical writer, one of my first product decisions was how the documentation should sound. Writing in the style of internal specifications doesn't support evaluation or purchase, so with my team, we rewrote the portal documentation around two core principles:
 
 > **We help users**<br/>
 We do not only describe product capabilities. We explain how those capabilities help the user make a decision.
@@ -51,7 +51,7 @@ We do not only describe product capabilities. We explain how those capabilities 
 > **We talk on equal terms**<br/>
 We advise users rather than instruct them. We know UP42's products well and are there to help.
 
-I interviewed product managers and engineering and restructured the portal’s information architecture and its voice to make the experience clearer and more useful to the people using it. The writing focused on what users needed to know and do, using language that was direct, natural, and easy to scan.
+I interviewed product managers and engineering and restructured the portal's information architecture and its voice to make the experience clearer and more useful to the people using it. The writing focused on what users needed to know and do, using language that was direct, natural, and easy to scan.
 
 With my team, we put the most useful information where users would expect to find it and removed details that didn't help them make a decision. This established the portal as a product with clear goals:
 - Help customers understand the product and decide what to order
@@ -86,12 +86,12 @@ We iterated on the marketplace and built a companion comparison tool with filter
 
 ## Recognition for the portal
 
-The work turned the portal into a discovery product. Customers could find a suitable collection without learning each provider’s terminology and reach ordering stage with a purchasing decision. In 2025, the portal received [Best Developer Portal for Data Products](https://devportalawards.org/winners?year=2025) at the DevPortal Awards.
+The work turned the portal into a discovery product. Customers could find a suitable collection without learning each provider's terminology and reach ordering stage with a purchasing decision. In 2025, the portal received [Best Developer Portal for Data Products](https://devportalawards.org/winners?year=2025) at the DevPortal Awards.
 
 A [quote](https://www.linkedin.com/posts/devportal-awards_devportalawards-devportalawards2025-techaward-activity-7396970537912176641-Vqcx?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4dl0BrNAtFedbYTzdsrQWQrxd8AoqJ7k) from DevPoral Awards' jury panel:
 > The UP42 portal was seen as tackling a very challenging and complicated data set, and they set a high standard for compliance and transparency. This portal excels at treating geospatial offerings as data products, with clear provenance for both provider and processing levels, strong interpretability, and a practical, centralized catalog. Discovery and persona coverage are top‑notch, and for every API exposed, they explicitly presented the End User Licensing Agreement.
 
 <div class="case-study-footer">
   <p>Building your next product?</p>
-  <a href="https://www.linkedin.com/in/daria-lutchenko/">Let’s connect <span aria-hidden="true">→</span></a>
+  <a href="https://www.linkedin.com/in/daria-lutchenko/">Let's connect <span aria-hidden="true">→</span></a>
 </div>
