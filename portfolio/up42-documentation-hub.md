@@ -12,20 +12,22 @@ portfolio_label: B2B product case study
 
 <div class="case-study-facts" aria-label="Case study focus">
   <div>
-    <span>Perspective</span>
-    <strong>Product lead</strong>
+    <span>Company</span>
+    <strong>UP42</strong>
   </div>
   <div>
-    <span>Focus</span>
-    <strong>Clarity &amp; structure</strong>
+    <span>Role</span>
+    <strong>Product Lead</strong>
   </div>
   <div>
-    <span>Strengths</span>
-    <strong>Discovery &amp; communication</strong>
+    <span>Timeline</span>
+    <strong>Jun 2022—Present</strong>
   </div>
 </div>
 
 <hr>
+
+![UP42 Documentation Hub showing a tasking order and captured imagery](/assets/images/portfolio/up42-documentation-hub.png)
 
 ## The challenge
 
