@@ -25,7 +25,7 @@ portfolio_label: B2B product case study
   </div>
 </div>
 
-<hr>
+---
 
 ![UP42 Documentation Hub showing a tasking order and captured imagery](/assets/images/portfolio/up42-documentation-hub.png)
 
@@ -68,6 +68,6 @@ notice ambiguity, follow a user’s path through unfamiliar territory, and make
 every piece of information earn its place.
 
 <div class="case-study-footer">
-  <p>Building your next product?</p>
-  <a href="mailto:email@techdaria.com">Let’s talk <span aria-hidden="true">→</span></a>
+  <p>Exploring a documentation challenge?</p>
+  <a href="https://www.linkedin.com/in/daria-lutchenko/">Let’s connect <span aria-hidden="true">→</span></a>
 </div>

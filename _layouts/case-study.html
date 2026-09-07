@@ -11,10 +11,21 @@ layout: base
     <div class="case-study-meta">{{ page.portfolio_label | escape }}</div>
   </header>
 
-  <div class="post-content">
-    <p>{{ page.description | escape }}</p>
+  <div class="article-body-with-toc">
+    <div class="post-content">
+      <p>{{ page.description | escape }}</p>
 
-    {{ content }}
+      {{ content }}
+    </div>
+
+    {% include toc.html %}
   </div>
 
 </article>
+
+<script>
+  document.querySelectorAll('.case-study .post-content a[href^="http"]').forEach((link) => {
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  });
+</script>
