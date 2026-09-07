@@ -31,10 +31,9 @@ portfolio_label: B2B product case study
 
 ## The challenge
 
-Technical products accumulate complexity quickly: expert language, edge cases,
-dependencies, and competing priorities all become part of the experience. The
-challenge is to preserve what is powerful about the product without asking
-people to understand its entire internal world first.
+Technical products accumulate complexity quickly: expert language, edge cases, dependencies, and competing priorities all become part of the experience.
+
+The challenge is to preserve what is powerful about the product without asking people to understand its entire internal world first.
 
 ## My approach
 
