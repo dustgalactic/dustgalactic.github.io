@@ -33,7 +33,7 @@ portfolio_order: 1
        <a href="https://up42.com">UP42</a> is a geospatial marketplace for satellite, aerial, and elevation data from multiple providers, with processing available on the same platform.
     </p>
     <p>
-       As product lead, I led a team consisting of technical writers, product managers, and frontend engineers responsible for the <a href="https://docs.up42.com">Documentation hub</a>. Our product  supported customers from the discovery and evaluation of geospatial offerings through to the point at which they were ready to place an order. The portal was designed to guide customers through evaluation and bring them to the point where they could move confidently into the ordering experience.
+       As product lead, I led a team consisting of technical writers, product managers, and frontend engineers contributing towards the <a href="https://docs.up42.com">Documentation hub</a>. Our product  supported customers from the discovery and evaluation of geospatial offerings through to the point at which they were ready to place an order. The portal was designed to guide customers through evaluation and bring them to the point where they could move confidently into the ordering experience.
     </p>
   </div>
   <img src="/assets/images/portfolio/up42-documentation-hub.png" alt="UP42 Documentation hub showing a tasking order and captured imagery">
