@@ -23,7 +23,6 @@
     padding-right: 45px;
   }
 
-  // Prevent any hover/focus/active effects
   &:hover, &:focus, &:active, &:visited {
     text-decoration: none !important;
     color: $text-color !important;
@@ -32,88 +31,83 @@
 
 .site-nav {
   float: right;
-  border: none;
-  background-color: inherit;
 
-  label[for="nav-trigger"], #nav-trigger {
+  .nav-trigger {
     display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+    gap: $spacing-unit * 0.5;
   }
 
   .nav-item {
     color: $text-color;
-    &:not(:last-child) {
-      margin-right: $spacing-unit * 0.5;
+    text-decoration: none;
+
+    &:hover,
+    &.is-active {
+      color: $accent-color;
+      text-decoration: underline;
+      text-underline-offset: 4px;
     }
   }
 
   @include media-query($on-medium) {
     position: absolute;
-    top: 9px;
+    top: 5px;
     right: $spacing-unit * 0.6;
+    z-index: 20;
+    min-width: 44px;
     background-color: $background-color;
     border: 1px solid $border-color-01;
     border-radius: 5px;
     text-align: right;
 
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
+    .nav-trigger {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      box-sizing: border-box;
+      margin: 0 0 0 auto;
+      padding: 0;
+      line-height: 1;
       cursor: pointer;
+      list-style: none;
+
+      &::marker {
+        content: "";
+      }
+
+      &::-webkit-details-marker {
+        display: none;
+      }
     }
 
     .menu-icon {
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 18px;
-      text-align: center;
-
-      &::before {
-        font-family: "Font Awesome 7 Free";
-        font-weight: 900;
-      }
-
-      > svg path {
-        fill: $border-color-03;
-      }
+      width: 24px;
+      height: 24px;
+      display: block;
+      margin: auto;
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-width: 2;
     }
 
-    #nav-trigger {
-      ~ label[for=nav-trigger] .menu-icon {
-        &::before {
-          content: "\f0c9";
-          font-size: 1.25em;
-        }
-      }
-      ~ .nav-items {
-        clear: both;
-        display: none
-      }
-      &:checked {
-      ~ label[for=nav-trigger] .menu-icon {
-        &::before {
-          content: "\f00d";
-          font-size: 1.5em;
-        }
-      }
-        ~ .nav-items {
-          display: block;
-          padding-bottom: 5px;
-          .nav-item {
-            margin-left: 20px;
-            padding: 5px 10px;
-          }
-        }
-      }
+    .nav-items {
+      display: block;
+      clear: both;
+      padding-bottom: 5px;
     }
 
     .nav-item {
       display: block;
-      margin-right: $spacing-unit * 0.5;
-      padding: 5px 0;
+      margin: 0 5px;
+      padding: 8px 10px;
       color: $text-color;
       line-height: $base-line-height;
     }
@@ -353,13 +347,13 @@
       border: 1px solid $border-color-01;
       &:hover { border-color: $border-color-02 }
     }
-    a, div {
+    a, div, span {
       min-width: 41px;
       padding: 10px 12px;
       text-align: center;
       box-sizing: border-box;
     }
-    div {
+    div, span {
       border: 1px solid transparent;
       &.pager-edge {
         color: $border-color-01;
