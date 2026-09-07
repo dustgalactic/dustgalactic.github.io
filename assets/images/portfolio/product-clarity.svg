@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="title">
+  <title id="title">Abstract geometric illustration in teal, beige, and black</title>
+  <rect width="800" height="460" fill="#ebe8e4"/>
+  <circle cx="710" cy="30" r="190" fill="#0d7377" opacity=".9"/>
+  <circle cx="70" cy="470" r="205" fill="none" stroke="#0d7377" stroke-opacity=".22" stroke-width="58"/>
+  <path d="M145 290 655 190" fill="none" stroke="#1f1f1f" stroke-width="5"/>
+  <circle cx="530" cy="214" r="22" fill="#1f1f1f" stroke="#ebe8e4" stroke-width="14"/>
+  <circle cx="530" cy="214" r="31" fill="none" stroke="#1f1f1f" stroke-width="5"/>
+</svg>

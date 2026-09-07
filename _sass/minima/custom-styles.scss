@@ -357,59 +357,15 @@ textarea,
 }
 
 .portfolio-card__visual {
-  position: relative;
-  min-height: 230px;
   overflow: hidden;
   background: $block-background;
-}
 
-.portfolio-card__shape,
-.portfolio-card__line,
-.portfolio-card__dot {
-  position: absolute;
-  display: block;
-}
-
-.portfolio-card__shape {
-  border-radius: 50%;
-
-  &--one {
-    top: -48px;
-    right: -18px;
-    width: 185px;
-    height: 185px;
-    background: $accent-color;
-    opacity: 0.9;
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 40 / 23;
+    object-fit: cover;
   }
-
-  &--two {
-    bottom: -76px;
-    left: -34px;
-    width: 215px;
-    height: 215px;
-    border: 28px solid rgba($accent-color, 0.22);
-  }
-}
-
-.portfolio-card__line {
-  top: 53%;
-  left: 18%;
-  width: 62%;
-  height: 2px;
-  background: $text-color;
-  transform: rotate(-11deg);
-  transform-origin: center;
-}
-
-.portfolio-card__dot {
-  top: 48%;
-  left: 64%;
-  width: 18px;
-  height: 18px;
-  background: $text-color;
-  border: 6px solid $block-background;
-  border-radius: 50%;
-  box-shadow: 0 0 0 2px $text-color;
 }
 
 .portfolio-card__body {
@@ -552,10 +508,6 @@ textarea,
       grid-column: auto;
       width: 100%;
     }
-  }
-
-  .portfolio-card__visual {
-    min-height: 190px;
   }
 
   .case-study-facts {

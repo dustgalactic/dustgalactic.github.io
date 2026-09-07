@@ -2,13 +2,18 @@
 layout: page
 title: Turning technical complexity into product clarity
 permalink: /portfolio/product-clarity/
-description: A case study about bringing structure and clarity to complex technical products.
+description: How I use curiosity, structure, and a beginner’s mind to make complex products easier to understand and use.
+image: /assets/images/portfolio/product-clarity.svg
+image_alt: Abstract geometric illustration in teal, beige, and black
+portfolio: true
+portfolio_order: 1
+portfolio_label: B2B product case study
 ---
 
 <a class="case-study-back" href="{{ '/portfolio/' | relative_url }}">← All work</a>
 
 <div class="case-study-intro">
-  <p class="portfolio-kicker">B2B product case study</p>
+  <p class="portfolio-kicker">{{ page.portfolio_label }}</p>
   <p class="case-study-summary">
     Complex products rarely need more information. They need the right
     information, arranged around the decisions people are trying to make.

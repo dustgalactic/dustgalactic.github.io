@@ -5,21 +5,18 @@ permalink: /portfolio/
 description: Selected product and technical communication work by Daria Lutchenko.
 ---
 
+{% assign case_studies = site.pages | where: "portfolio", true | sort: "portfolio_order" %}
 <div class="portfolio-grid" aria-label="Portfolio projects">
-  <a class="portfolio-card" href="{{ '/portfolio/product-clarity/' | relative_url }}">
-    <div class="portfolio-card__visual" aria-hidden="true">
-      <span class="portfolio-card__shape portfolio-card__shape--one"></span>
-      <span class="portfolio-card__shape portfolio-card__shape--two"></span>
-      <span class="portfolio-card__line"></span>
-      <span class="portfolio-card__dot"></span>
+  {% for case_study in case_studies %}
+  <a class="portfolio-card" href="{{ case_study.url | relative_url }}">
+    <div class="portfolio-card__visual">
+      <img src="{{ case_study.image | relative_url }}" alt="{{ case_study.image_alt | default: '' | escape }}">
     </div>
     <div class="portfolio-card__body">
-      <p class="portfolio-card__meta">B2B product case study</p>
-      <h2>Turning technical complexity into product clarity</h2>
-      <p>
-        How I use curiosity, structure, and a beginner’s mind to make complex
-        products easier to understand and use.
-      </p>
+      <p class="portfolio-card__meta">{{ case_study.portfolio_label | default: "Case study" | escape }}</p>
+      <h2>{{ case_study.title | escape }}</h2>
+      <p>{{ case_study.description | escape }}</p>
     </div>
   </a>
+  {% endfor %}
 </div>
