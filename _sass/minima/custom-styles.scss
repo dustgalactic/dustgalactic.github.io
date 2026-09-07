@@ -326,7 +326,7 @@ textarea,
   // Keep a single project centered; additional cards fill the grid naturally.
   .portfolio-card:only-child {
     grid-column: 1 / -1;
-    width: calc(50% - 1rem);
+    width: 44%;
     justify-self: center;
   }
 }
@@ -348,11 +348,6 @@ textarea,
     border-color: rgba($accent-color, 0.55);
     box-shadow: 0 14px 34px rgba(31, 31, 31, 0.12);
     transform: translateY(-4px);
-
-    .portfolio-card__link {
-      text-decoration: underline;
-      text-underline-offset: 0.2em;
-    }
   }
 
   &:focus-visible {
@@ -445,12 +440,6 @@ textarea,
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.portfolio-card__link {
-  margin-top: auto;
-  color: $accent-color;
-  font-weight: 600;
 }
 
 .case-study-back {

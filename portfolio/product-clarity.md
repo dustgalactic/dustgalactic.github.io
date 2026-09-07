@@ -8,7 +8,7 @@ description: A case study about bringing structure and clarity to complex techni
 <a class="case-study-back" href="{{ '/portfolio/' | relative_url }}">← All work</a>
 
 <div class="case-study-intro">
-  <p class="portfolio-kicker">Product strategy · Case study</p>
+  <p class="portfolio-kicker">B2B product case study</p>
   <p class="case-study-summary">
     Complex products rarely need more information. They need the right
     information, arranged around the decisions people are trying to make.
