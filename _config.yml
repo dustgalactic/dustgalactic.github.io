@@ -4,7 +4,7 @@ lang: en
 author:
   name: Daria Lutchenko
 description: >
-  A blog about technical writing.
+  A blog on technical writing and product management.
 url: "https://techdaria.com"
 baseurl: ""
 logo: /assets/images/social-preview.png
@@ -16,6 +16,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 5
 paginate_path: "/page:num/"

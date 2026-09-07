@@ -3,10 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const postContent = document.querySelector('.post-content');
   if (postContent) {
     const links = postContent.getElementsByTagName('a');
-    for (let link of links) {
-      if (!link.target) {
-        link.target = '_blank';
-      }
+    for (const link of links) {
+      link.target = '_blank';
+      link.relList.add('noopener', 'noreferrer');
     }
   }
 });
