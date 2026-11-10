@@ -30,3 +30,10 @@ Oh.
 There's this paragraph in [Be Exceptional](https://www.goodreads.com/book/show/55507035-be-exceptional) on the widely known Dunning-Kruger effect:
 > It takes self-awareness and that higher component, self-mastery, to understand when we lack ability or expertise. In other words, the hallmark of good, intelligent decision-making is to "be good at knowing what we don't know" and likewise knowing what is not a good course to take—otherwise anything we decide to do seems okay.
 > <div align="right">— Joe Navarro, Toni Sciarra Poynter<br/>Be Exceptional: Master the Five Traits That Set Extraordinary People Apart</div>
+
+What do I need to know to figure out how to do this? The biggest fish in the idea pond. Go as small as needed.
+
+
+If it's unclear for me what to do, then it means I'm not asking the right question.
+- What feature can I ship? vs
+- Where in the customer journey can my team have the most impact
